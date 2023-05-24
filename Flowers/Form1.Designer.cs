@@ -34,6 +34,7 @@
             this.FFF = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.TextBox();
             this.Pass = new System.Windows.Forms.TextBox();
+            this.Reg = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,9 +66,9 @@
             this.NameText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.NameText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.NameText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.NameText.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.NameText.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.NameText.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.NameText.Location = new System.Drawing.Point(646, 242);
             this.NameText.Name = "NameText";
             this.NameText.Size = new System.Drawing.Size(100, 16);
@@ -82,9 +83,9 @@
             this.FFF.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.FFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.FFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.FFF.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FFF.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.FFF.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.FFF.Location = new System.Drawing.Point(646, 297);
             this.FFF.Name = "FFF";
             this.FFF.Size = new System.Drawing.Size(100, 16);
@@ -99,9 +100,9 @@
             this.Email.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Email.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Email.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Email.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Email.Location = new System.Drawing.Point(646, 352);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(100, 16);
@@ -116,9 +117,9 @@
             this.Pass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.Pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Pass.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Pass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Pass.Location = new System.Drawing.Point(646, 407);
             this.Pass.Name = "Pass";
             this.Pass.Size = new System.Drawing.Size(100, 16);
@@ -128,11 +129,24 @@
             this.Pass.Enter += new System.EventHandler(this.Pass_Enter);
             this.Pass.Leave += new System.EventHandler(this.Pass_Leave);
             // 
+            // Reg
+            // 
+            this.Reg.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Reg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
+            this.Reg.Location = new System.Drawing.Point(596, 451);
+            this.Reg.Name = "Reg";
+            this.Reg.Size = new System.Drawing.Size(219, 40);
+            this.Reg.TabIndex = 6;
+            this.Reg.Text = "Зарегестрироваться";
+            this.Reg.UseVisualStyleBackColor = false;
+            // 
             // I_Can_Buy_Myself_Flowers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(1457, 590);
+            this.Controls.Add(this.Reg);
             this.Controls.Add(this.Pass);
             this.Controls.Add(this.Email);
             this.Controls.Add(this.FFF);
@@ -154,5 +168,6 @@
         public TextBox FFF;
         public TextBox Email;
         public TextBox Pass;
+        private Button Reg;
     }
 }
