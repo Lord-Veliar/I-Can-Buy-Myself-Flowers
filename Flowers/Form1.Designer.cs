@@ -32,6 +32,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.NameText = new System.Windows.Forms.TextBox();
             this.FFF = new System.Windows.Forms.TextBox();
+            this.Email = new System.Windows.Forms.TextBox();
+            this.Pass = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,11 +62,15 @@
             // 
             // NameText
             // 
-            this.NameText.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.NameText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.NameText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.NameText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.NameText.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.NameText.Location = new System.Drawing.Point(646, 242);
             this.NameText.Name = "NameText";
-            this.NameText.Size = new System.Drawing.Size(100, 23);
+            this.NameText.Size = new System.Drawing.Size(100, 16);
             this.NameText.TabIndex = 2;
             this.NameText.Text = "Имя";
             this.NameText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -73,22 +79,62 @@
             // 
             // FFF
             // 
-            this.FFF.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.FFF.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.FFF.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.FFF.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.FFF.Location = new System.Drawing.Point(646, 297);
             this.FFF.Name = "FFF";
-            this.FFF.Size = new System.Drawing.Size(100, 23);
+            this.FFF.Size = new System.Drawing.Size(100, 16);
             this.FFF.TabIndex = 3;
             this.FFF.Text = "Фамилия";
             this.FFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.FFF.Enter += new System.EventHandler(this.FFF_Enter);
             this.FFF.Leave += new System.EventHandler(this.FFF_Leave);
             // 
+            // Email
+            // 
+            this.Email.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.Email.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Email.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Email.Location = new System.Drawing.Point(646, 352);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(100, 16);
+            this.Email.TabIndex = 4;
+            this.Email.Text = "Email";
+            this.Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Email.Enter += new System.EventHandler(this.Email_Enter);
+            this.Email.Leave += new System.EventHandler(this.Email_Leave);
+            // 
+            // Pass
+            // 
+            this.Pass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
+            this.Pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Pass.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Pass.Location = new System.Drawing.Point(646, 407);
+            this.Pass.Name = "Pass";
+            this.Pass.Size = new System.Drawing.Size(100, 16);
+            this.Pass.TabIndex = 5;
+            this.Pass.Text = "Пароль";
+            this.Pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Pass.Enter += new System.EventHandler(this.Pass_Enter);
+            this.Pass.Leave += new System.EventHandler(this.Pass_Leave);
+            // 
             // I_Can_Buy_Myself_Flowers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1457, 590);
+            this.Controls.Add(this.Pass);
+            this.Controls.Add(this.Email);
             this.Controls.Add(this.FFF);
             this.Controls.Add(this.NameText);
             this.Controls.Add(this.label1);
@@ -106,5 +152,7 @@
         private PictureBox pictureBox1;
         public TextBox NameText;
         public TextBox FFF;
+        public TextBox Email;
+        public TextBox Pass;
     }
 }

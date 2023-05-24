@@ -30,7 +30,7 @@ namespace Flowers
 
         private void NameText_Enter(object sender, EventArgs e)
         {
-            NameText.Cursor = Cursors.No;
+
             if (NameText.Text == "Имя")
             {
                 NameText.Text = "";
@@ -38,19 +38,21 @@ namespace Flowers
                 NameText.ForeColor = Color.Black;
             }
         }
-        private void NameText_Leave(object sender, EventArgs e)
+        public void NameText_Leave(object sender, EventArgs e)
         {
+            string sname="";
             if (NameText.Text == "")
             {
                 NameText.Text = "Имя";
-
+                sname = NameText.Text;
                 NameText.ForeColor = Color.Gray;
             }
+            
         }
 
 
 
-        private void FFF_Enter(object sender, EventArgs e)
+        public void FFF_Enter(object sender, EventArgs e)
         {
 
             if (FFF.Text == "Фамилия")
@@ -61,15 +63,52 @@ namespace Flowers
             }
         }
 
-        private void FFF_Leave(object sender, EventArgs e)
+        public void FFF_Leave(object sender, EventArgs e)
         {
             if (FFF.Text == "")
             {
                 FFF.Text = "Фамилия";
-
                 FFF.ForeColor = Color.Gray;
+            }
+           
+        }
+
+        private void Email_Enter(object sender, EventArgs e)
+        {
+            if (Email.Text == "Email")
+            {
+                Email.Text = "";
+
+                Email.ForeColor = Color.Black;
             }
         }
 
+        private void Email_Leave(object sender, EventArgs e)
+        {
+            if (Email.Text == "")
+            {
+                Email.Text = "Email";
+                Email.ForeColor = Color.Gray;
+            }
+        }
+
+        private void Pass_Enter(object sender, EventArgs e)
+        {
+            if (Pass.Text == "Пароль")
+            {
+                Pass.Text = "";
+
+                Pass.ForeColor = Color.Black;
+            }
+        }
+
+        private void Pass_Leave(object sender, EventArgs e)
+        {
+            if (Pass.Text == "")
+            {
+                Pass.Text = "Пароль";
+                Pass.ForeColor = Color.Gray;
+            }
+        }
     }
 }
