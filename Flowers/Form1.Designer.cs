@@ -139,6 +139,7 @@
             this.Reg.TabIndex = 6;
             this.Reg.Text = "Зарегестрироваться";
             this.Reg.UseVisualStyleBackColor = false;
+            this.Reg.Click += new System.EventHandler(this.Reg_Click);
             // 
             // I_Can_Buy_Myself_Flowers
             // 

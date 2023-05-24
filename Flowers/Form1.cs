@@ -110,5 +110,21 @@ namespace Flowers
                 Pass.ForeColor = Color.Gray;
             }
         }
+
+        private async void Reg_Click(object sender, EventArgs e)
+        {
+            string path = @"X:\UP\flowers\flowers\bin\Debug\Аккаунты.csv";
+            List<string> people = new List<string>();
+            int ind = 0;
+            people.Add(NameText.Text);
+            people.Add(FFF.Text);
+
+            using (StreamWriter writer = new StreamWriter(path, true))
+            {
+                await writer.WriteLineAsync(people[ind] + ';' + people[ind + 1]);
+
+            }
+            ind++;
+        }
     }
 }
