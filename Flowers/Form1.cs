@@ -154,6 +154,7 @@ namespace Flowers
                 I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
                 glavnaya.Show();
                 glavnaya.WindowState = FormWindowState.Maximized;
+         
                 
             }
             if(protect!=0)
