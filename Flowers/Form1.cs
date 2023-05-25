@@ -113,18 +113,24 @@ namespace Flowers
 
         private async void Reg_Click(object sender, EventArgs e)
         {
-            string path = @"X:\UP\flowers\flowers\bin\Debug\Аккаунты.csv";
+            string path = @"C:\Users\Механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
             int ind = 0;
             people.Add(NameText.Text);
             people.Add(FFF.Text);
-
+            people.Add(Email.Text);
+            people.Add(Pass.Text);
             using (StreamWriter writer = new StreamWriter(path, true))
             {
-                await writer.WriteLineAsync(people[ind] + ';' + people[ind + 1]);
+                await writer.WriteLineAsync(people[ind] + ';' + people[ind + 1] + ';' + people[ind + 2] + ';' + people[ind+3]);
 
             }
             ind++;
+        }
+
+        private void Email_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

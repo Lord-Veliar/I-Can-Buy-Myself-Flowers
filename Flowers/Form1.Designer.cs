@@ -109,6 +109,7 @@
             this.Email.TabIndex = 4;
             this.Email.Text = "Email";
             this.Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Email.TextChanged += new System.EventHandler(this.Email_TextChanged);
             this.Email.Enter += new System.EventHandler(this.Email_Enter);
             this.Email.Leave += new System.EventHandler(this.Email_Leave);
             // 
