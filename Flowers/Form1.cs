@@ -138,7 +138,7 @@ namespace Flowers
                     }
                 
             }
-            if (protect == 0)
+            if (protect == 0&& NameText.Text!="Имя"&&FFF.Text!="Фамилия"&&Email.Text!="Email"&&Pass.Text!="Пароль")
             {
                 people.Add(NameText.Text);
                 people.Add(FFF.Text);
@@ -151,14 +151,18 @@ namespace Flowers
                 }
                 ind++;
                 Glavnaya glavnaya = new Glavnaya();
-
+                I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
                 glavnaya.Show();
                 glavnaya.WindowState = FormWindowState.Maximized;
-                I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
+                
             }
-            else
+            if(protect!=0)
             {
                 MessageBox.Show("Этот E-mail уже используется для другого аккаунта", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if(NameText.Text == "Имя" || FFF.Text == "Фамилия" || Email.Text == "Email" || Pass.Text == "Пароль")
+            {
+                MessageBox.Show("Заполните все обязательные поля", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
