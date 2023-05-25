@@ -113,19 +113,54 @@ namespace Flowers
 
         private async void Reg_Click(object sender, EventArgs e)
         {
+         
             string path = @"C:\Users\Механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
+            List<string> bufer = new List<string>();
             int ind = 0;
-            people.Add(NameText.Text);
-            people.Add(FFF.Text);
-            people.Add(Email.Text);
-            people.Add(Pass.Text);
-            using (StreamWriter writer = new StreamWriter(path, true))
+            int protect = 0;
+            using (StreamReader reader = new StreamReader(path))
             {
-                await writer.WriteLineAsync(people[ind] + ';' + people[ind + 1] + ';' + people[ind + 2] + ';' + people[ind+3]);
-
+                string? line;
+                while ((line = await reader.ReadLineAsync()) != null)
+                {
+                    bufer.Add(line);
+                }
+                reader.Close();
             }
-            ind++;
+            foreach(string st in bufer)
+            {
+                string[] bluf = st.Split(';');
+                if (bluf[2] ==Email.Text)
+                    {
+                   
+                        protect++;
+                    }
+                
+            }
+            if (protect == 0)
+            {
+                people.Add(NameText.Text);
+                people.Add(FFF.Text);
+                people.Add(Email.Text);
+                people.Add(Pass.Text);
+                using (StreamWriter writer = new StreamWriter(path, true))
+                {
+                    await writer.WriteLineAsync(people[ind] + ';' + people[ind + 1] + ';' + people[ind + 2] + ';' + people[ind + 3]);
+                    writer.Close();
+                }
+                ind++;
+                Glavnaya glavnaya = new Glavnaya();
+
+                glavnaya.Show();
+                glavnaya.WindowState = FormWindowState.Maximized;
+                I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
+            }
+            else
+            {
+                MessageBox.Show("Этот E-mail уже используется для другого аккаунта", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         private void Email_TextChanged(object sender, EventArgs e)
