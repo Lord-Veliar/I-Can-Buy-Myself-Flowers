@@ -26,5 +26,10 @@ namespace Flowers
             test.WindowState = FormWindowState.Maximized;
             this.Close();
         }
+
+        private void Glavnaya_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

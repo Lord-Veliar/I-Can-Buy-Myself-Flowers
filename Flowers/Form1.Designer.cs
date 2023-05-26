@@ -28,142 +28,155 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            pictureBox1 = new PictureBox();
-            NameText = new TextBox();
-            FFF = new TextBox();
-            Email = new TextBox();
-            Pass = new TextBox();
-            Reg = new Button();
-            button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.NameText = new System.Windows.Forms.TextBox();
+            this.FFF = new System.Windows.Forms.TextBox();
+            this.Email = new System.Windows.Forms.TextBox();
+            this.Pass = new System.Windows.Forms.TextBox();
+            this.Reg = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top;
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 35F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(558, 148);
-            label1.Name = "label1";
-            label1.Size = new Size(295, 62);
-            label1.TabIndex = 1;
-            label1.Text = "Регистрация";
-            label1.Click += label1_Click;
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 35F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(558, 148);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(295, 62);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Регистрация";
             // 
             // pictureBox1
             // 
-            pictureBox1.Anchor = AnchorStyles.Top;
-            pictureBox1.Image = Properties.Resources.logt;
-            pictureBox1.Location = new Point(629, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(134, 133);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox1.Image = global::Flowers.Properties.Resources.logt;
+            this.pictureBox1.Location = new System.Drawing.Point(629, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(134, 133);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // NameText
             // 
-            NameText.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            NameText.BackColor = Color.FromArgb(255, 192, 255);
-            NameText.BorderStyle = BorderStyle.None;
-            NameText.ForeColor = SystemColors.ControlDarkDark;
-            NameText.Location = new Point(646, 242);
-            NameText.Name = "NameText";
-            NameText.Size = new Size(100, 16);
-            NameText.TabIndex = 2;
-            NameText.Text = "Имя";
-            NameText.TextAlign = HorizontalAlignment.Center;
-            NameText.Enter += NameText_Enter;
-            NameText.Leave += NameText_Leave;
+            this.NameText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.NameText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.NameText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NameText.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.NameText.Location = new System.Drawing.Point(629, 256);
+            this.NameText.Name = "NameText";
+            this.NameText.Size = new System.Drawing.Size(117, 23);
+            this.NameText.TabIndex = 2;
+            this.NameText.Text = "Имя";
+            this.NameText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.NameText.Enter += new System.EventHandler(this.NameText_Enter);
+            this.NameText.Leave += new System.EventHandler(this.NameText_Leave);
             // 
             // FFF
             // 
-            FFF.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            FFF.BackColor = Color.FromArgb(255, 192, 255);
-            FFF.BorderStyle = BorderStyle.None;
-            FFF.ForeColor = SystemColors.ControlDarkDark;
-            FFF.Location = new Point(646, 297);
-            FFF.Name = "FFF";
-            FFF.Size = new Size(100, 16);
-            FFF.TabIndex = 3;
-            FFF.Text = "Фамилия";
-            FFF.TextAlign = HorizontalAlignment.Center;
-            FFF.Enter += FFF_Enter;
-            FFF.Leave += FFF_Leave;
+            this.FFF.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.FFF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.FFF.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.FFF.Location = new System.Drawing.Point(629, 302);
+            this.FFF.Name = "FFF";
+            this.FFF.Size = new System.Drawing.Size(117, 23);
+            this.FFF.TabIndex = 3;
+            this.FFF.Text = "Фамилия";
+            this.FFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FFF.Enter += new System.EventHandler(this.FFF_Enter);
+            this.FFF.Leave += new System.EventHandler(this.FFF_Leave);
             // 
             // Email
             // 
-            Email.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Email.BackColor = Color.FromArgb(255, 192, 255);
-            Email.BorderStyle = BorderStyle.None;
-            Email.ForeColor = SystemColors.ControlDarkDark;
-            Email.Location = new Point(646, 352);
-            Email.Name = "Email";
-            Email.Size = new Size(100, 16);
-            Email.TabIndex = 4;
-            Email.Text = "Email";
-            Email.TextAlign = HorizontalAlignment.Center;
-            Email.TextChanged += Email_TextChanged;
-            Email.Enter += Email_Enter;
-            Email.Leave += Email_Leave;
+            this.Email.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.Email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Email.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Email.Location = new System.Drawing.Point(629, 345);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(117, 23);
+            this.Email.TabIndex = 4;
+            this.Email.Text = "Email";
+            this.Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Email.Enter += new System.EventHandler(this.Email_Enter);
+            this.Email.Leave += new System.EventHandler(this.Email_Leave);
             // 
             // Pass
             // 
-            Pass.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Pass.BackColor = Color.FromArgb(255, 192, 255);
-            Pass.BorderStyle = BorderStyle.None;
-            Pass.ForeColor = SystemColors.ControlDarkDark;
-            Pass.Location = new Point(646, 407);
-            Pass.Name = "Pass";
-            Pass.Size = new Size(100, 16);
-            Pass.TabIndex = 5;
-            Pass.Text = "Пароль";
-            Pass.TextAlign = HorizontalAlignment.Center;
-            Pass.Enter += Pass_Enter;
-            Pass.Leave += Pass_Leave;
+            this.Pass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.Pass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Pass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Pass.Location = new System.Drawing.Point(629, 390);
+            this.Pass.Name = "Pass";
+            this.Pass.Size = new System.Drawing.Size(117, 23);
+            this.Pass.TabIndex = 5;
+            this.Pass.Text = "Пароль";
+            this.Pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Pass.Enter += new System.EventHandler(this.Pass_Enter);
+            this.Pass.Leave += new System.EventHandler(this.Pass_Leave);
             // 
             // Reg
             // 
-            Reg.Anchor = AnchorStyles.Top;
-            Reg.BackColor = Color.FromArgb(142, 213, 228);
-            Reg.Location = new Point(596, 451);
-            Reg.Name = "Reg";
-            Reg.Size = new Size(219, 40);
-            Reg.TabIndex = 6;
-            Reg.Text = "Зарегестрироваться";
-            Reg.UseVisualStyleBackColor = false;
-            Reg.Click += Reg_Click;
+            this.Reg.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Reg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
+            this.Reg.Location = new System.Drawing.Point(582, 451);
+            this.Reg.Name = "Reg";
+            this.Reg.Size = new System.Drawing.Size(219, 40);
+            this.Reg.TabIndex = 6;
+            this.Reg.Text = "Зарегестрироваться";
+            this.Reg.UseVisualStyleBackColor = false;
+            this.Reg.Click += new System.EventHandler(this.Reg_Click);
             // 
-            // button1
+            // linkLabel1
             // 
-            button1.Location = new Point(662, 513);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 7;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel1.Location = new System.Drawing.Point(623, 505);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(140, 21);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Уже есть аккаунт?";
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // I_Can_Buy_Myself_Flowers
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.HighlightText;
-            ClientSize = new Size(1457, 590);
-            Controls.Add(button1);
-            Controls.Add(Reg);
-            Controls.Add(Pass);
-            Controls.Add(Email);
-            Controls.Add(FFF);
-            Controls.Add(NameText);
-            Controls.Add(label1);
-            Controls.Add(pictureBox1);
-            Name = "I_Can_Buy_Myself_Flowers";
-            Text = "I Can Buy Myself Flowers";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ClientSize = new System.Drawing.Size(1457, 590);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.Reg);
+            this.Controls.Add(this.Pass);
+            this.Controls.Add(this.Email);
+            this.Controls.Add(this.FFF);
+            this.Controls.Add(this.NameText);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "I_Can_Buy_Myself_Flowers";
+            this.Text = "I Can Buy Myself Flowers";
+            this.Load += new System.EventHandler(this.I_Can_Buy_Myself_Flowers_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -174,6 +187,6 @@
         public TextBox Email;
         public TextBox Pass;
         private Button Reg;
-        private Button button1;
+        private LinkLabel linkLabel1;
     }
 }

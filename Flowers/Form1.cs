@@ -54,7 +54,6 @@ namespace Flowers
 
         public void FFF_Enter(object sender, EventArgs e)
         {
-
             if (FFF.Text == "Фамилия")
             {
                 FFF.Text = "";
@@ -113,6 +112,7 @@ namespace Flowers
 
         private async void Reg_Click(object sender, EventArgs e)
         {
+
 
             string path = @"C:\Users\Механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
@@ -177,6 +177,19 @@ namespace Flowers
         {
             Avtoriz avtoriz = new Avtoriz();
             avtoriz.Show();
+        }
+
+        private void I_Can_Buy_Myself_Flowers_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Avtoriz avtoriz=new Avtoriz();
+            avtoriz.Show();
+          avtoriz.WindowState = FormWindowState.Maximized;
+     
         }
     }
 }

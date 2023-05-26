@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Glavnaya";
             this.Text = "Glavnaya";
+            this.Load += new System.EventHandler(this.Glavnaya_Load);
             this.ResumeLayout(false);
 
         }
