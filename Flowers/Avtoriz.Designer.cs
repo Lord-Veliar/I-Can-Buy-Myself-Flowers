@@ -79,6 +79,7 @@
             this.AMeil.TabIndex = 4;
             this.AMeil.Text = "Email";
             this.AMeil.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AMeil.TextChanged += new System.EventHandler(this.AMeil_TextChanged);
             this.AMeil.Enter += new System.EventHandler(this.AMeil_Enter);
             this.AMeil.Leave += new System.EventHandler(this.AMeil_Leave);
             // 

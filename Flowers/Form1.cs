@@ -14,7 +14,7 @@ namespace Flowers
 
         private void I_Can_Buy_Myself_Flowers_Load(object sender, EventArgs e)
         {
-
+            
         }
 
 
@@ -30,7 +30,7 @@ namespace Flowers
 
         private void NameText_Enter(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
             if (NameText.Text == "Èìÿ")
             {
                 NameText.Text = "";

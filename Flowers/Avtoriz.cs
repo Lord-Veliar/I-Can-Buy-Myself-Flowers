@@ -48,14 +48,46 @@ namespace Flowers
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
-            i_Can_Buy_Myself_Flowers.Show();
-           i_Can_Buy_Myself_Flowers.WindowState = FormWindowState.Maximized;
+            Application.Restart();
             
         }
 
-        private void Vhod_Click(object sender, EventArgs e)
+        private async void Vhod_Click(object sender, EventArgs e)
         {
+            string path = @"C:\Users\Механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
+            List<string> people = new List<string>();
+            List<string> bufer = new List<string>();
+            int protect = 0;
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string? line;
+                while ((line = await reader.ReadLineAsync()) != null)
+                {
+                    bufer.Add(line);
+                }
+                reader.Close();
+            }
+            foreach (string st in bufer)
+            {
+                string[] bluf = st.Split(';');
+                if (bluf[2] == AMeil.Text && bluf[3]==APass.Text)
+                {
+
+                    protect++;
+                }
+
+            }
+            if(protect > 0)
+            {
+                Glavnaya glavnaya = new Glavnaya();
+                glavnaya.Show();
+                glavnaya.WindowState = FormWindowState.Maximized;
+                this.Close();  
+            }
+            else
+            {
+                MessageBox.Show("Неверный логин или пароль", "Ошибка авторизации", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
 
@@ -76,6 +108,11 @@ namespace Flowers
                 APass.Text = "Пароль";
                 APass.ForeColor = Color.Gray;
             }
+        }
+
+        private void AMeil_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
