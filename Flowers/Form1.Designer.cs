@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.NameText = new System.Windows.Forms.TextBox();
@@ -36,6 +37,7 @@
             this.Pass = new System.Windows.Forms.TextBox();
             this.Reg = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,6 +158,11 @@
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Black;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // I_Can_Buy_Myself_Flowers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -172,7 +179,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "I_Can_Buy_Myself_Flowers";
             this.Text = "I Can Buy Myself Flowers";
-            this.Load += new System.EventHandler(this.I_Can_Buy_Myself_Flowers_Load_1);
+            this.Load += new System.EventHandler(this.I_Can_Buy_Myself_Flowers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -188,5 +195,6 @@
         public TextBox Pass;
         private Button Reg;
         private LinkLabel linkLabel1;
+        private ContextMenuStrip contextMenuStrip1;
     }
 }

@@ -7,17 +7,22 @@ namespace Flowers
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Image = Properties.Resources.logt;
-        }
+
 
         private void I_Can_Buy_Myself_Flowers_Load(object sender, EventArgs e)
         {
-            
+            this.WindowState = FormWindowState.Maximized;
+            NameText.Enabled = false;
+            NameText.Enabled = true;
+            FFF.Enabled = false;
+            FFF.Enabled = true;
+            Email.Enabled = false;
+            Email.Enabled = true;
+            Pass.Enabled = false;
+            Pass.Enabled = true;
         }
 
-
+      
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -30,7 +35,8 @@ namespace Flowers
 
         private void NameText_Enter(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+
+
             if (NameText.Text == "Èìÿ")
             {
                 NameText.Text = "";
@@ -179,11 +185,6 @@ namespace Flowers
             avtoriz.Show();
         }
 
-        private void I_Can_Buy_Myself_Flowers_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Avtoriz avtoriz=new Avtoriz();
@@ -191,5 +192,7 @@ namespace Flowers
           avtoriz.WindowState = FormWindowState.Maximized;
      
         }
+
+       
     }
 }

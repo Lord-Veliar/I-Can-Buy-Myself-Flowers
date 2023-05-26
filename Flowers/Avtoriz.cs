@@ -19,7 +19,12 @@ namespace Flowers
 
         private void Avtoriz_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
+            AMeil.Enabled = false;
+            APass.Enabled = false;
+            AMeil.Enabled = true;
 
+            APass.Enabled = true;
         }
 
         private void APass_TextChanged(object sender, EventArgs e)

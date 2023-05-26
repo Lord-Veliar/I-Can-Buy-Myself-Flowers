@@ -118,12 +118,12 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(616, 427);
+            this.linkLabel1.Location = new System.Drawing.Point(595, 428);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(100, 21);
+            this.linkLabel1.Size = new System.Drawing.Size(142, 21);
             this.linkLabel1.TabIndex = 7;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Регистрация";
+            this.linkLabel1.Text = "Еще нет аккаунта?";
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Black;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
@@ -142,6 +142,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Avtoriz";
             this.Text = "Avtoriz";
+            this.Load += new System.EventHandler(this.Avtoriz_Load);
             this.Enter += new System.EventHandler(this.AMeil_Enter);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -30,11 +30,6 @@ namespace Flowers
 
 
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             button2.Enabled = true;
@@ -46,6 +41,16 @@ namespace Flowers
         {
             button1.Enabled = true;
             button2.Enabled = false;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
