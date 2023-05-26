@@ -17,7 +17,7 @@ namespace Flowers
 
         }
 
-     
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -26,7 +26,7 @@ namespace Flowers
 
 
 
-        
+
 
         private void NameText_Enter(object sender, EventArgs e)
         {
@@ -40,14 +40,14 @@ namespace Flowers
         }
         public void NameText_Leave(object sender, EventArgs e)
         {
-            string sname="";
+            string sname = "";
             if (NameText.Text == "")
             {
                 NameText.Text = "Имя";
                 sname = NameText.Text;
                 NameText.ForeColor = Color.Gray;
             }
-            
+
         }
 
 
@@ -70,7 +70,7 @@ namespace Flowers
                 FFF.Text = "Фамилия";
                 FFF.ForeColor = Color.Gray;
             }
-           
+
         }
 
         private void Email_Enter(object sender, EventArgs e)
@@ -113,7 +113,7 @@ namespace Flowers
 
         private async void Reg_Click(object sender, EventArgs e)
         {
-         
+
             string path = @"C:\Users\Механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
@@ -128,17 +128,17 @@ namespace Flowers
                 }
                 reader.Close();
             }
-            foreach(string st in bufer)
+            foreach (string st in bufer)
             {
                 string[] bluf = st.Split(';');
-                if (bluf[2] ==Email.Text)
-                    {
-                   
-                        protect++;
-                    }
-                
+                if (bluf[2] == Email.Text)
+                {
+
+                    protect++;
+                }
+
             }
-            if (protect == 0&& NameText.Text!="Имя"&&FFF.Text!="Фамилия"&&Email.Text!="Email"&&Pass.Text!="Пароль")
+            if (protect == 0 && NameText.Text != "Имя" && FFF.Text != "Фамилия" && Email.Text != "Email" && Pass.Text != "Пароль")
             {
                 people.Add(NameText.Text);
                 people.Add(FFF.Text);
@@ -154,14 +154,14 @@ namespace Flowers
                 I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
                 glavnaya.Show();
                 glavnaya.WindowState = FormWindowState.Maximized;
-         
-                
+
+
             }
-            if(protect!=0)
+            if (protect != 0)
             {
                 MessageBox.Show("Этот E-mail уже используется для другого аккаунта", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            if(NameText.Text == "Имя" || FFF.Text == "Фамилия" || Email.Text == "Email" || Pass.Text == "Пароль")
+            if (NameText.Text == "Имя" || FFF.Text == "Фамилия" || Email.Text == "Email" || Pass.Text == "Пароль")
             {
                 MessageBox.Show("Заполните все обязательные поля", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -171,6 +171,12 @@ namespace Flowers
         private void Email_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Avtoriz avtoriz = new Avtoriz();
+            avtoriz.Show();
         }
     }
 }
