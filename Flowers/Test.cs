@@ -117,5 +117,10 @@ namespace Flowers
             button9.Enabled = true;
             button10.Enabled = false;
         }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            label1.Location = new Point(label1.Location.X+2);
+        }
     }
 }
