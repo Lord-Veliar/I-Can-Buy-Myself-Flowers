@@ -120,7 +120,7 @@ namespace Flowers
         {
 
 
-            string path = @"C:\Users\Механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
+            string path = @"C:\Users\ПотаповаКС\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
             int ind = 0;

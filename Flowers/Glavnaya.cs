@@ -21,10 +21,15 @@ namespace Flowers
         {
             Glavnaya glavnaya = new Glavnaya();
             Test test = new Test();
-     
+
             test.Show();
             test.WindowState = FormWindowState.Maximized;
             this.Close();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
