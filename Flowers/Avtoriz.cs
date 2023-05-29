@@ -59,7 +59,7 @@ namespace Flowers
 
         private async void Vhod_Click(object sender, EventArgs e)
         {
-            string path = @"C:\Users\ПотаповаКС\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
+            string path = @"C:\Users\механцевнв\source\repos\flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
             int protect = 0;

@@ -50,7 +50,28 @@ namespace Flowers
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            Rastenia rastenia = new Rastenia();
+            if(button1.Enabled==false&&button4.Enabled==false&&button5.Enabled==false&&button7.Enabled==false&&button10.Enabled==false)
+            {
+                rastenia.Show();
+                rastenia.WindowState=FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Калатея Гремучая Змея";
+            }
+            if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button9.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Банан Комнатный";
+            }
+            if (button2.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button10.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Антуриум";
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -121,6 +142,19 @@ namespace Flowers
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             label1.Location = new Point(label1.Location.X+2);
+        }
+
+        private void Test_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Glavnaya glavnaya = new Glavnaya();
+            glavnaya.Show();
+            glavnaya.WindowState = FormWindowState.Maximized;
+            this.Close();
         }
     }
 }
