@@ -56,9 +56,9 @@ namespace Flowers
             Application.Restart();
             
         }
-
-        private async void Vhod_Click(object sender, EventArgs e)
-        {
+        public string pe="";
+        public async void Vhod_Click(object sender, EventArgs e)
+        {           
             string path = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
@@ -77,17 +77,18 @@ namespace Flowers
                 string[] bluf = st.Split(';');
                 if (bluf[2] == AMeil.Text && bluf[3]==APass.Text)
                 {
-
                     protect++;
+            pe= bluf[2];    
                 }
 
             }
             if(protect > 0)
             {
+         
                 Glavnaya glavnaya = new Glavnaya();
                 glavnaya.Show();
                 glavnaya.WindowState = FormWindowState.Maximized;
-                this.Close();  
+                this.Close();
             }
             else
             {
@@ -114,7 +115,6 @@ namespace Flowers
                 APass.ForeColor = Color.Gray;
             }
         }
-
         private void AMeil_TextChanged(object sender, EventArgs e)
         {
 

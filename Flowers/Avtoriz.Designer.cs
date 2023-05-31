@@ -155,9 +155,9 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label2;
-        private TextBox AMeil;
-        private TextBox APass;
-        private Button ABut;
+       public TextBox AMeil;
+        public TextBox APass;
+        public Button ABut;
         private LinkLabel linkLabel1;
     }
 }

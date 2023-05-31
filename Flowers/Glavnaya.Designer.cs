@@ -113,7 +113,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(237, 24830);
+            this.pictureBox1.Size = new System.Drawing.Size(237, 31875);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -196,7 +196,7 @@
             this.pictureBox3.Location = new System.Drawing.Point(230, 0);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1092, 108);
+            this.pictureBox3.Size = new System.Drawing.Size(1007, 108);
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
             // 
@@ -206,7 +206,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.pictureBox5.BackgroundImage = global::Flowers.Properties.Resources.kkk1;
             this.pictureBox5.Image = global::Flowers.Properties.Resources.kkk2;
-            this.pictureBox5.Location = new System.Drawing.Point(1103, 5);
+            this.pictureBox5.Location = new System.Drawing.Point(1018, 5);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(59, 67);
@@ -217,7 +217,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
-            this.pictureBox4.Location = new System.Drawing.Point(1219, 11);
+            this.pictureBox4.Location = new System.Drawing.Point(1134, 11);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 56);
@@ -232,7 +232,7 @@
             this.Korzina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.Korzina.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Korzina.LinkColor = System.Drawing.Color.Black;
-            this.Korzina.Location = new System.Drawing.Point(1103, 74);
+            this.Korzina.Location = new System.Drawing.Point(1018, 74);
             this.Korzina.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Korzina.Name = "Korzina";
             this.Korzina.Size = new System.Drawing.Size(70, 21);
@@ -249,7 +249,7 @@
             this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(1209, 74);
+            this.linkLabel1.Location = new System.Drawing.Point(1124, 74);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(75, 21);
@@ -257,12 +257,13 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Профиль";
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // pictureBox6
             // 
             this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox6.Image = global::Flowers.Properties.Resources.Калатея_Гремучая_змея1;
-            this.pictureBox6.Location = new System.Drawing.Point(266, 152);
+            this.pictureBox6.Location = new System.Drawing.Point(221, 152);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(281, 359);
             this.pictureBox6.TabIndex = 14;
@@ -272,7 +273,7 @@
             // 
             this.banana.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.banana.Image = global::Flowers.Properties.Resources.банан_комнатный4;
-            this.banana.Location = new System.Drawing.Point(604, 152);
+            this.banana.Location = new System.Drawing.Point(559, 152);
             this.banana.Name = "banana";
             this.banana.Size = new System.Drawing.Size(281, 359);
             this.banana.TabIndex = 15;
@@ -282,7 +283,7 @@
             // 
             this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox8.Image = global::Flowers.Properties.Resources.Антуриум1;
-            this.pictureBox8.Location = new System.Drawing.Point(943, 152);
+            this.pictureBox8.Location = new System.Drawing.Point(898, 152);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(281, 359);
             this.pictureBox8.TabIndex = 16;
@@ -292,7 +293,7 @@
             // 
             this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox9.Image = global::Flowers.Properties.Resources.Большая_драцена_с_лимоном_и_лаймом1;
-            this.pictureBox9.Location = new System.Drawing.Point(266, 638);
+            this.pictureBox9.Location = new System.Drawing.Point(221, 638);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(281, 359);
             this.pictureBox9.TabIndex = 17;
@@ -302,7 +303,7 @@
             // 
             this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox10.Image = global::Flowers.Properties.Resources.Оливковое_дерево1;
-            this.pictureBox10.Location = new System.Drawing.Point(604, 638);
+            this.pictureBox10.Location = new System.Drawing.Point(559, 638);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(281, 359);
             this.pictureBox10.TabIndex = 18;
@@ -312,7 +313,7 @@
             // 
             this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox11.Image = global::Flowers.Properties.Resources.Большая_райская_птица1;
-            this.pictureBox11.Location = new System.Drawing.Point(943, 638);
+            this.pictureBox11.Location = new System.Drawing.Point(898, 638);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(281, 359);
             this.pictureBox11.TabIndex = 19;
@@ -322,7 +323,7 @@
             // 
             this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox12.Image = global::Flowers.Properties.Resources.денежное_дерево1;
-            this.pictureBox12.Location = new System.Drawing.Point(266, 1121);
+            this.pictureBox12.Location = new System.Drawing.Point(221, 1121);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(281, 359);
             this.pictureBox12.TabIndex = 20;
@@ -332,7 +333,7 @@
             // 
             this.pictureBox13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox13.Image = global::Flowers.Properties.Resources.Калатея_Вейвстар1;
-            this.pictureBox13.Location = new System.Drawing.Point(604, 1121);
+            this.pictureBox13.Location = new System.Drawing.Point(559, 1121);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(281, 359);
             this.pictureBox13.TabIndex = 21;
@@ -342,7 +343,7 @@
             // 
             this.pictureBox14.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox14.Image = global::Flowers.Properties.Resources.Приятный_кактус1;
-            this.pictureBox14.Location = new System.Drawing.Point(943, 1121);
+            this.pictureBox14.Location = new System.Drawing.Point(898, 1121);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(281, 359);
             this.pictureBox14.TabIndex = 22;
@@ -352,7 +353,7 @@
             // 
             this.pictureBox15.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox15.Image = global::Flowers.Properties.Resources.фикус5;
-            this.pictureBox15.Location = new System.Drawing.Point(266, 1589);
+            this.pictureBox15.Location = new System.Drawing.Point(221, 1589);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(281, 359);
             this.pictureBox15.TabIndex = 23;
@@ -362,7 +363,7 @@
             // 
             this.pictureBox16.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox16.Image = global::Flowers.Properties.Resources.Мирная_лилия_Домино1;
-            this.pictureBox16.Location = new System.Drawing.Point(604, 1589);
+            this.pictureBox16.Location = new System.Drawing.Point(559, 1589);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(281, 359);
             this.pictureBox16.TabIndex = 24;
@@ -372,7 +373,7 @@
             // 
             this.pictureBox17.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox17.Image = global::Flowers.Properties.Resources.Потос_Нью_Джей;
-            this.pictureBox17.Location = new System.Drawing.Point(943, 1589);
+            this.pictureBox17.Location = new System.Drawing.Point(898, 1589);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(281, 359);
             this.pictureBox17.TabIndex = 25;
@@ -382,7 +383,7 @@
             // 
             this.pictureBox18.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox18.Image = global::Flowers.Properties.Resources.Эхеверия_Пелусида;
-            this.pictureBox18.Location = new System.Drawing.Point(266, 2080);
+            this.pictureBox18.Location = new System.Drawing.Point(221, 2080);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(281, 359);
             this.pictureBox18.TabIndex = 26;
@@ -392,7 +393,7 @@
             // 
             this.pictureBox19.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox19.Image = global::Flowers.Properties.Resources.Шеффлера1;
-            this.pictureBox19.Location = new System.Drawing.Point(604, 2080);
+            this.pictureBox19.Location = new System.Drawing.Point(559, 2080);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(281, 359);
             this.pictureBox19.TabIndex = 27;
@@ -402,7 +403,7 @@
             // 
             this.pictureBox20.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox20.Image = global::Flowers.Properties.Resources.Хойя_Харт;
-            this.pictureBox20.Location = new System.Drawing.Point(943, 2080);
+            this.pictureBox20.Location = new System.Drawing.Point(898, 2080);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(281, 359);
             this.pictureBox20.TabIndex = 28;
@@ -415,7 +416,7 @@
             this.first.AutoSize = true;
             this.first.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.first.LinkColor = System.Drawing.Color.Black;
-            this.first.Location = new System.Drawing.Point(303, 514);
+            this.first.Location = new System.Drawing.Point(258, 514);
             this.first.Name = "first";
             this.first.Size = new System.Drawing.Size(222, 28);
             this.first.TabIndex = 29;
@@ -430,7 +431,7 @@
             this.banan.AutoSize = true;
             this.banan.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.banan.LinkColor = System.Drawing.Color.Black;
-            this.banan.Location = new System.Drawing.Point(670, 514);
+            this.banan.Location = new System.Drawing.Point(625, 514);
             this.banan.Name = "banan";
             this.banan.Size = new System.Drawing.Size(176, 28);
             this.banan.TabIndex = 30;
@@ -445,7 +446,7 @@
             this.third.AutoSize = true;
             this.third.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.third.LinkColor = System.Drawing.Color.Black;
-            this.third.Location = new System.Drawing.Point(1043, 514);
+            this.third.Location = new System.Drawing.Point(998, 514);
             this.third.Name = "third";
             this.third.Size = new System.Drawing.Size(103, 28);
             this.third.TabIndex = 31;
@@ -460,7 +461,7 @@
             this.lime.AutoSize = true;
             this.lime.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lime.LinkColor = System.Drawing.Color.Black;
-            this.lime.Location = new System.Drawing.Point(266, 1000);
+            this.lime.Location = new System.Drawing.Point(221, 1000);
             this.lime.Name = "lime";
             this.lime.Size = new System.Drawing.Size(293, 28);
             this.lime.TabIndex = 32;
@@ -475,7 +476,7 @@
             this.olive.AutoSize = true;
             this.olive.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.olive.LinkColor = System.Drawing.Color.Black;
-            this.olive.Location = new System.Drawing.Point(659, 1000);
+            this.olive.Location = new System.Drawing.Point(614, 1000);
             this.olive.Name = "olive";
             this.olive.Size = new System.Drawing.Size(187, 28);
             this.olive.TabIndex = 33;
@@ -490,7 +491,7 @@
             this.big.AutoSize = true;
             this.big.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.big.LinkColor = System.Drawing.Color.Black;
-            this.big.Location = new System.Drawing.Point(967, 1000);
+            this.big.Location = new System.Drawing.Point(922, 1000);
             this.big.Name = "big";
             this.big.Size = new System.Drawing.Size(229, 28);
             this.big.TabIndex = 34;
@@ -505,7 +506,7 @@
             this.money.AutoSize = true;
             this.money.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.money.LinkColor = System.Drawing.Color.Black;
-            this.money.Location = new System.Drawing.Point(323, 1483);
+            this.money.Location = new System.Drawing.Point(278, 1483);
             this.money.Name = "money";
             this.money.Size = new System.Drawing.Size(178, 28);
             this.money.TabIndex = 35;
@@ -520,7 +521,7 @@
             this.four.AutoSize = true;
             this.four.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.four.LinkColor = System.Drawing.Color.Black;
-            this.four.Location = new System.Drawing.Point(659, 1483);
+            this.four.Location = new System.Drawing.Point(614, 1483);
             this.four.Name = "four";
             this.four.Size = new System.Drawing.Size(170, 28);
             this.four.TabIndex = 36;
@@ -535,7 +536,7 @@
             this.kaktus.AutoSize = true;
             this.kaktus.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.kaktus.LinkColor = System.Drawing.Color.Black;
-            this.kaktus.Location = new System.Drawing.Point(1006, 1483);
+            this.kaktus.Location = new System.Drawing.Point(961, 1483);
             this.kaktus.Name = "kaktus";
             this.kaktus.Size = new System.Drawing.Size(168, 28);
             this.kaktus.TabIndex = 37;
@@ -550,7 +551,7 @@
             this.Ficus.AutoSize = true;
             this.Ficus.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Ficus.LinkColor = System.Drawing.Color.Black;
-            this.Ficus.Location = new System.Drawing.Point(381, 1951);
+            this.Ficus.Location = new System.Drawing.Point(336, 1951);
             this.Ficus.Name = "Ficus";
             this.Ficus.Size = new System.Drawing.Size(68, 28);
             this.Ficus.TabIndex = 38;
@@ -565,7 +566,7 @@
             this.lilia.AutoSize = true;
             this.lilia.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lilia.LinkColor = System.Drawing.Color.Black;
-            this.lilia.Location = new System.Drawing.Point(635, 1951);
+            this.lilia.Location = new System.Drawing.Point(590, 1951);
             this.lilia.Name = "lilia";
             this.lilia.Size = new System.Drawing.Size(228, 28);
             this.lilia.TabIndex = 39;
@@ -580,7 +581,7 @@
             this.NJ.AutoSize = true;
             this.NJ.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NJ.LinkColor = System.Drawing.Color.Black;
-            this.NJ.Location = new System.Drawing.Point(1006, 1951);
+            this.NJ.Location = new System.Drawing.Point(961, 1951);
             this.NJ.Name = "NJ";
             this.NJ.Size = new System.Drawing.Size(171, 28);
             this.NJ.TabIndex = 40;
@@ -595,7 +596,7 @@
             this.E.AutoSize = true;
             this.E.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.E.LinkColor = System.Drawing.Color.Black;
-            this.E.Location = new System.Drawing.Point(311, 2442);
+            this.E.Location = new System.Drawing.Point(266, 2442);
             this.E.Name = "E";
             this.E.Size = new System.Drawing.Size(190, 28);
             this.E.TabIndex = 41;
@@ -610,7 +611,7 @@
             this.Five.AutoSize = true;
             this.Five.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Five.LinkColor = System.Drawing.Color.Black;
-            this.Five.Location = new System.Drawing.Point(695, 2442);
+            this.Five.Location = new System.Drawing.Point(650, 2442);
             this.Five.Name = "Five";
             this.Five.Size = new System.Drawing.Size(112, 28);
             this.Five.TabIndex = 42;
@@ -625,7 +626,7 @@
             this.HH.AutoSize = true;
             this.HH.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HH.LinkColor = System.Drawing.Color.Black;
-            this.HH.Location = new System.Drawing.Point(1039, 2442);
+            this.HH.Location = new System.Drawing.Point(994, 2442);
             this.HH.Name = "HH";
             this.HH.Size = new System.Drawing.Size(105, 28);
             this.HH.TabIndex = 43;
