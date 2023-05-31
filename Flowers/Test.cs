@@ -72,6 +72,49 @@ namespace Flowers
                 this.Close();
                 rastenia.label666.Text = "Антуриум";
             }
+            if (button2.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Большая Драцена С Лимоном И Лаймом";
+            }
+            if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Оливковое Дерево";
+            }
+            if (button1.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Большая Райская Птица";
+            }
+            if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button10.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Денежное Дерево";
+            }
+            if (button2.Enabled == false && button4.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Калатея Вэйвстар";
+            }
+            if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button9.Enabled == false)
+            {
+                rastenia.Show();
+                rastenia.WindowState = FormWindowState.Maximized;
+                this.Close();
+                rastenia.label666.Text = "Фикус";
+            }
+
         }
 
         private void label1_Click(object sender, EventArgs e)
