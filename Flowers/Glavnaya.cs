@@ -44,5 +44,10 @@ namespace Flowers
             profil.WindowState = FormWindowState.Maximized;
             this.Close();
         }
+
+        private void pictureBox6_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

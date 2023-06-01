@@ -57,6 +57,16 @@ namespace Flowers
                 rastenia.WindowState=FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Калатея Гремучая Змея";
+                rastenia.pic.Image = Properties.Resources.Калатея_Гремучая_змея1;
+                rastenia.Pis.Text = "Калатея гремучая змея известна своими длинными\nволнистыми " +
+                    "зелеными листьями с рисунком мазка, \nнапоминающим кожу рептилии. \n" +
+                    "Он поднимает и опускает эти листья изо дня в день, \nэто явлениеназывется никтинастией, " +
+                    "и источник его \nпрозвища «молитвенное растение». " +
+                    "\nЭто растение подходит для домашних животных!";
+                rastenia.Ruc.Text = "- Хорошо растет при непрямом освещении от среднего до яркого, \nно может переносить слабое непрямое освещение." +
+                    "\n- Поливайте каждые 1-2 недели, позволяя почве просохнуть наполовину между \nполивами. Ожидайте поливать чаще при ярком свете и реже при слабом. \nЭтому растению может быть полезна дополнительная влажность. Калатеи могут быть \nчувствительны к жесткой водопроводной воде. Попробуйте использовать фильтрованную воду или \nоставьте воду на ночь перед использованием." +
+                    "\n- Это растение подходит для домашних животных.";
+                rastenia.price.Text = "4.699 руб";
             }
             if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button9.Enabled == false)
             {
@@ -64,6 +74,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Банан Комнатный";
+                rastenia.pic.Image = Properties.Resources.банан_комнатный1;
             }
             if (button2.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button10.Enabled == false)
             {
@@ -71,6 +82,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Антуриум";
+                rastenia.pic.Image = Properties.Resources.Антуриум1;
             }
             if (button2.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
             {
@@ -78,6 +90,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Большая Драцена С Лимоном И Лаймом";
+                rastenia.pic.Image = Properties.Resources.драцена;
             }
             if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
             {
@@ -85,6 +98,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Оливковое Дерево";
+                rastenia.pic.Image = Properties.Resources.оливковое;
             }
             if (button1.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
             {
@@ -92,6 +106,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Большая Райская Птица";
+                rastenia.pic.Image = Properties.Resources.Большая_райская_птица1;
             }
             if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button10.Enabled == false)
             {
@@ -99,6 +114,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Денежное Дерево";
+                rastenia.pic.Image = Properties.Resources.денежное;
             }
             if (button2.Enabled == false && button4.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
             {
@@ -106,6 +122,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Калатея Вэйвстар";
+                rastenia.pic.Image = Properties.Resources.Калатея_Вейвстар1;
             }
             if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button9.Enabled == false)
             {
@@ -113,6 +130,7 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Фикус";
+                rastenia.pic.Image = Properties.Resources.фикус;
             }
 
         }

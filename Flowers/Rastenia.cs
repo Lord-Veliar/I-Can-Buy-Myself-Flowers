@@ -16,5 +16,20 @@ namespace Flowers
         {
             InitializeComponent();
         }
+
+        private void pic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ruc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kor_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

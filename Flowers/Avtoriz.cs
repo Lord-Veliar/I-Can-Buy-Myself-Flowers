@@ -59,7 +59,7 @@ namespace Flowers
         public string pe="";
         public async void Vhod_Click(object sender, EventArgs e)
         {           
-            string path = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\Аккаунты.csv";
+            string path = @"Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
             int protect = 0;

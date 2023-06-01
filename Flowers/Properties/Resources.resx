@@ -124,9 +124,6 @@
   <data name="Шеффлера" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\большие\Шеффлера.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="денежное" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\для начинающих\денежное дерево.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="logt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,9 +142,6 @@
   <data name="денежное дерево" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\для начинающих\денежное дерево.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="фикус5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\большие\фикус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="драцена" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\слабое освещение\Большая драцена с лимоном и лаймом.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,6 +157,12 @@
   <data name="фикус1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\большие\фикус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="банан комнатный3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kkk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kkk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Антуриум1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\для начинающих\Антуриум.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -171,12 +171,6 @@
   </data>
   <data name="Мирная лилия Домино1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\для начинающих\Мирная лилия Домино.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Антуриум" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\для начинающих\Антуриум.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Хойя Харт" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\для начинающих\Хойя Харт.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="оливковое" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Оливковое дерево.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,14 +187,20 @@
   <data name="Филодендрон_зеленый" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\слабое освещение\Филодендрон зеленый.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="фикус3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="фикус5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\большие\фикус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="банан комнатный" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="банан комнатный1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Калатея Вейвстар1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\слабое освещение\Калатея Вейвстар.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Эхеверия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\безопасно для животных\Эхеверия Пелусида.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Большая драцена с лимоном и лаймом1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\слабое освещение\Большая драцена с лимоном и лаймом.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,8 +217,8 @@
   <data name="Приятный" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Приятный кактус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Эхеверия" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\безопасно для животных\Эхеверия Пелусида.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Хойя Харт" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для начинающих\Хойя Харт.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="змея" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Калатея Гремучая змея.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,11 +235,14 @@
   <data name="Калатея Гремучая змея2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Калатея Гремучая змея.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="банан" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="k2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Большая райская птица" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\большие\Большая райская птица.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Калатея Гремучая змея5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\безопасно для животных\Калатея Гремучая змея.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Калатея Гремучая змея1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Калатея Гремучая змея.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,17 +253,14 @@
   <data name="Калатея Вейвстар" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\слабое освещение\Калатея Вейвстар.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Большая драцена с лимоном и лаймом" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\слабое освещение\Большая драцена с лимоном и лаймом.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="фикус3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\большие\фикус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Вейвстар" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\слабое освещение\Калатея Вейвстар.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="фикус2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\большие\фикус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Шеффлера1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\большие\Шеффлера.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Оливковое дерево" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Оливковое дерево.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,8 +274,8 @@
   <data name="Большая райская птица1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\большие\Большая райская птица.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Калатея Гремучая змея5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\безопасно для животных\Калатея Гремучая змея.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Антуриум" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для начинающих\Антуриум.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kkk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kkk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,22 +289,25 @@
   <data name="Мирная" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\для начинающих\Мирная лилия Домино.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="банан комнатный1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="денежное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для начинающих\денежное дерево.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="but3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\but.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="банан" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Большая райская птица" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\большие\Большая райская птица.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="банан комнатный3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\большие\банан комнатный.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Шеффлера1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\большие\Шеффлера.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Большая драцена с лимоном и лаймом" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\слабое освещение\Большая драцена с лимоном и лаймом.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Оливковое дерево1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\безопасно для животных\Оливковое дерево.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kkk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="kkk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kkk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

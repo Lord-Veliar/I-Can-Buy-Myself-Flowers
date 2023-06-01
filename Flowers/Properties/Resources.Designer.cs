@@ -163,6 +163,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kkk3 {
+            get {
+                object obj = ResourceManager.GetObject("kkk3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logt {
             get {
                 object obj = ResourceManager.GetObject("logt", resourceCulture);
