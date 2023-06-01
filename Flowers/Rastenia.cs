@@ -26,8 +26,25 @@ namespace Flowers
         {
 
         }
+        static int i;
+       public void kor_Click(object sender, EventArgs e)
+        {
+           Korzina korz = new Korzina();
+            string pokupki= @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\pokp.txt";
+            string tht = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\theni.txt";
+            File.AppendAllText(pokupki, label666.Text+ Environment.NewLine);
+            File.AppendAllText(tht, price.Text + Environment.NewLine);
 
-        private void kor_Click(object sender, EventArgs e)
+        }
+
+        private void Korzina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Korzina korz = new Korzina();
+            korz.Show();
+            korz.WindowState = FormWindowState.Maximized;
+        }
+
+        private void price_Click(object sender, EventArgs e)
         {
 
         }

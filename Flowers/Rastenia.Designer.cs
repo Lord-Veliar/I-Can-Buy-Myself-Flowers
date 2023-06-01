@@ -49,6 +49,7 @@
             this.Ruc = new System.Windows.Forms.Label();
             this.price = new System.Windows.Forms.Label();
             this.kor = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -138,6 +139,7 @@
             this.Korzina.TabStop = true;
             this.Korzina.Text = "Корзина";
             this.Korzina.VisitedLinkColor = System.Drawing.Color.Black;
+            this.Korzina.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Korzina_LinkClicked);
             // 
             // linkLabel1
             // 
@@ -293,6 +295,7 @@
             this.price.Size = new System.Drawing.Size(78, 32);
             this.price.TabIndex = 26;
             this.price.Text = "label4";
+            this.price.Click += new System.EventHandler(this.price_Click);
             // 
             // kor
             // 
@@ -307,11 +310,23 @@
             this.kor.UseVisualStyleBackColor = false;
             this.kor.Click += new System.EventHandler(this.kor_Click);
             // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(762, 272);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 32);
+            this.label4.TabIndex = 28;
+            this.label4.Text = "руб.";
+            // 
             // Rastenia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1348, 849);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.kor);
             this.Controls.Add(this.price);
             this.Controls.Add(this.Ruc);
@@ -369,5 +384,6 @@
         public Label Ruc;
         public Label price;
         public Button kor;
+        public Label label4;
     }
 }

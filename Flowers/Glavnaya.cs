@@ -49,5 +49,30 @@ namespace Flowers
         {
 
         }
+
+        private void Korzina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Korzina korz = new Korzina();
+            korz.Show();
+            korz.WindowState = FormWindowState.Maximized;
+
+        }
+
+        private void Glavnaya_Load(object sender, EventArgs e)
+        {
+            string pokupki = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\pokp.txt";
+            string tht = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\theni.txt";
+            File.Delete(pokupki);
+            File.Delete(tht);
+            using (var fileStream = File.Create(pokupki))
+            {
+
+            }
+
+            using (var fileStream = File.Create(tht))
+            {
+
+            }
+        }
     }
 }

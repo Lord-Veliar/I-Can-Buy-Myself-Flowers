@@ -20,9 +20,11 @@ namespace Flowers
             Email.Enabled = true;
             Pass.Enabled = false;
             Pass.Enabled = true;
+            
+
         }
 
-      
+
 
         private void label1_Click(object sender, EventArgs e)
         {
