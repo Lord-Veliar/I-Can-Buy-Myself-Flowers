@@ -121,7 +121,10 @@ namespace Flowers
         private async void Reg_Click(object sender, EventArgs e)
         {
 
-
+            string logss = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\dannie.txt";
+            string ddan;
+            ddan = Email.Text;
+            File.WriteAllText(logss, ddan);
             string path = @"Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
