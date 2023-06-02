@@ -37,8 +37,12 @@
             this.RedEm = new System.Windows.Forms.TextBox();
             this.RedPass = new System.Windows.Forms.TextBox();
             this.ResSave = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Rednpass = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.RedConf = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.izmp = new System.Windows.Forms.Button();
+            this.izmpar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -53,7 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(344, 156);
+            this.label2.Location = new System.Drawing.Point(478, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 15);
             this.label2.TabIndex = 1;
@@ -62,7 +66,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(355, 256);
+            this.label3.Location = new System.Drawing.Point(343, 210);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 15);
             this.label3.TabIndex = 2;
@@ -83,18 +87,18 @@
             this.RedIm.Name = "RedIm";
             this.RedIm.Size = new System.Drawing.Size(100, 23);
             this.RedIm.TabIndex = 4;
-            this.RedIm.TextChanged += new System.EventHandler(this.RedIm_TextChanged);
+
             // 
             // RedFm
             // 
-            this.RedFm.Location = new System.Drawing.Point(354, 189);
+            this.RedFm.Location = new System.Drawing.Point(478, 92);
             this.RedFm.Name = "RedFm";
             this.RedFm.Size = new System.Drawing.Size(100, 23);
             this.RedFm.TabIndex = 5;
             // 
             // RedEm
             // 
-            this.RedEm.Location = new System.Drawing.Point(362, 289);
+            this.RedEm.Location = new System.Drawing.Point(441, 210);
             this.RedEm.Name = "RedEm";
             this.RedEm.Size = new System.Drawing.Size(100, 23);
             this.RedEm.TabIndex = 6;
@@ -108,7 +112,7 @@
             // 
             // ResSave
             // 
-            this.ResSave.Location = new System.Drawing.Point(565, 388);
+            this.ResSave.Location = new System.Drawing.Point(372, 144);
             this.ResSave.Name = "ResSave";
             this.ResSave.Size = new System.Drawing.Size(75, 23);
             this.ResSave.TabIndex = 8;
@@ -116,13 +120,13 @@
             this.ResSave.UseVisualStyleBackColor = true;
             this.ResSave.Click += new System.EventHandler(this.ResSave_Click);
             // 
-            // textBox1
+            // Rednpass
             // 
-            this.textBox1.Location = new System.Drawing.Point(493, 350);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Rednpass.Location = new System.Drawing.Point(493, 350);
+            this.Rednpass.Name = "Rednpass";
+            this.Rednpass.Size = new System.Drawing.Size(100, 23);
+            this.Rednpass.TabIndex = 9;
+            this.Rednpass.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
             // 
@@ -133,13 +137,51 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Новый Пароль";
             // 
+            // RedConf
+            // 
+            this.RedConf.Location = new System.Drawing.Point(194, 210);
+            this.RedConf.Name = "RedConf";
+            this.RedConf.Size = new System.Drawing.Size(100, 23);
+            this.RedConf.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(83, 209);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 15);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Введите пароль";
+            // 
+            // izmp
+            // 
+            this.izmp.Location = new System.Drawing.Point(311, 261);
+            this.izmp.Name = "izmp";
+            this.izmp.Size = new System.Drawing.Size(174, 28);
+            this.izmp.TabIndex = 13;
+            this.izmp.Text = "Изменить Почту";
+            this.izmp.UseVisualStyleBackColor = true;
+            // 
+            // izmpar
+            // 
+            this.izmpar.Location = new System.Drawing.Point(330, 390);
+            this.izmpar.Name = "izmpar";
+            this.izmpar.Size = new System.Drawing.Size(188, 27);
+            this.izmpar.TabIndex = 14;
+            this.izmpar.Text = "Изменить Пароль";
+            this.izmpar.UseVisualStyleBackColor = true;
+            // 
             // Profil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.izmpar);
+            this.Controls.Add(this.izmp);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.RedConf);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Rednpass);
             this.Controls.Add(this.ResSave);
             this.Controls.Add(this.RedPass);
             this.Controls.Add(this.RedEm);
@@ -168,7 +210,11 @@
         public TextBox RedEm;
         public TextBox RedPass;
         private Button ResSave;
-        private TextBox textBox1;
+        private TextBox Rednpass;
         private Label label5;
+        private TextBox RedConf;
+        private Label label6;
+        private Button izmp;
+        private Button izmpar;
     }
 }
