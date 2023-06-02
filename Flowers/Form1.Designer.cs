@@ -69,10 +69,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NameText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.NameText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NameText.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NameText.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.NameText.Location = new System.Drawing.Point(629, 256);
             this.NameText.Name = "NameText";
-            this.NameText.Size = new System.Drawing.Size(117, 23);
+            this.NameText.Size = new System.Drawing.Size(117, 29);
             this.NameText.TabIndex = 2;
             this.NameText.Text = "Имя";
             this.NameText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -86,10 +87,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.FFF.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.FFF.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FFF.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.FFF.Location = new System.Drawing.Point(629, 302);
             this.FFF.Name = "FFF";
-            this.FFF.Size = new System.Drawing.Size(117, 23);
+            this.FFF.Size = new System.Drawing.Size(117, 29);
             this.FFF.TabIndex = 3;
             this.FFF.Text = "Фамилия";
             this.FFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -103,10 +105,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Email.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Email.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Email.Location = new System.Drawing.Point(629, 345);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(117, 23);
+            this.Email.Size = new System.Drawing.Size(117, 29);
             this.Email.TabIndex = 4;
             this.Email.Text = "Email";
             this.Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -120,10 +123,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Pass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Pass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Pass.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Pass.Location = new System.Drawing.Point(629, 390);
             this.Pass.Name = "Pass";
-            this.Pass.Size = new System.Drawing.Size(117, 23);
+            this.Pass.Size = new System.Drawing.Size(117, 29);
             this.Pass.TabIndex = 5;
             this.Pass.Text = "Пароль";
             this.Pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -134,9 +138,10 @@
             // 
             this.Reg.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Reg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
+            this.Reg.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Reg.Location = new System.Drawing.Point(582, 451);
             this.Reg.Name = "Reg";
-            this.Reg.Size = new System.Drawing.Size(219, 40);
+            this.Reg.Size = new System.Drawing.Size(219, 51);
             this.Reg.TabIndex = 6;
             this.Reg.Text = "Зарегестрироваться";
             this.Reg.UseVisualStyleBackColor = false;

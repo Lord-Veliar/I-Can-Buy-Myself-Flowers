@@ -23,7 +23,7 @@ namespace Flowers
 
         private async void Profil_Load(object sender, EventArgs e)
         {
-            string logss = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\dannie.txt";
+            string logss = @"dannie.txt";
             string path = @"Аккаунты.csv";
             List<string> people = new List<string>();
             List<string> bufer = new List<string>();
@@ -63,7 +63,7 @@ namespace Flowers
             if (RedIm.Text != null && RedFm.Text != null)
             {
                 int vc = 0;
-                string logss = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\dannie.txt";
+                string logss = @"dannie.txt";
                 string path = @"Аккаунты.csv";
                 List<string> people = new List<string>();
                 List<string> bufer = new List<string>();

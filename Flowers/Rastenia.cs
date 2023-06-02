@@ -30,8 +30,8 @@ namespace Flowers
        public void kor_Click(object sender, EventArgs e)
         {
            Korzina korz = new Korzina();
-            string pokupki= @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\pokp.txt";
-            string tht = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\theni.txt";
+            string pokupki= @"pokp.txt";
+            string tht = @"theni.txt";
             File.AppendAllText(pokupki, label666.Text+ Environment.NewLine);
             File.AppendAllText(tht, price.Text + Environment.NewLine);
 

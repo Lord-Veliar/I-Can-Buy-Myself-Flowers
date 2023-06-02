@@ -60,8 +60,8 @@ namespace Flowers
 
         private void Glavnaya_Load(object sender, EventArgs e)
         {
-            string pokupki = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\pokp.txt";
-            string tht = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\theni.txt";
+            string pokupki = @"pokp.txt";
+            string tht = @"theni.txt";
             File.Delete(pokupki);
             File.Delete(tht);
             using (var fileStream = File.Create(pokupki))

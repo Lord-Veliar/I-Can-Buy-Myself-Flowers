@@ -25,7 +25,7 @@ namespace Flowers
             AMeil.Enabled = true;
 
             APass.Enabled = true;
-            string logss = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\dannie.txt";
+            string logss = @"dannie.txt";
             File.Delete(logss);
             using (var fileStream = File.Create(logss))
             {
@@ -90,7 +90,7 @@ namespace Flowers
             }
             if(protect > 0)
             {
-                string logss = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\dannie.txt";
+                string logss = @"dannie.txt";
              File.WriteAllText(logss, pe);
                 Glavnaya glavnaya = new Glavnaya();
                 glavnaya.Show();

@@ -72,10 +72,11 @@
             this.AMeil.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.AMeil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.AMeil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.AMeil.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.AMeil.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.AMeil.Location = new System.Drawing.Point(559, 269);
             this.AMeil.Name = "AMeil";
-            this.AMeil.Size = new System.Drawing.Size(211, 23);
+            this.AMeil.Size = new System.Drawing.Size(211, 29);
             this.AMeil.TabIndex = 4;
             this.AMeil.Text = "Email";
             this.AMeil.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -88,10 +89,11 @@
             this.APass.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.APass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.APass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.APass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.APass.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.APass.Location = new System.Drawing.Point(559, 326);
             this.APass.Name = "APass";
-            this.APass.Size = new System.Drawing.Size(211, 23);
+            this.APass.Size = new System.Drawing.Size(211, 29);
             this.APass.TabIndex = 5;
             this.APass.Text = "Пароль";
             this.APass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -103,9 +105,10 @@
             // 
             this.ABut.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ABut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
+            this.ABut.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ABut.Location = new System.Drawing.Point(595, 377);
             this.ABut.Name = "ABut";
-            this.ABut.Size = new System.Drawing.Size(142, 33);
+            this.ABut.Size = new System.Drawing.Size(142, 48);
             this.ABut.TabIndex = 6;
             this.ABut.Text = "Войти";
             this.ABut.UseVisualStyleBackColor = false;

@@ -121,7 +121,7 @@ namespace Flowers
         private async void Reg_Click(object sender, EventArgs e)
         {
 
-            string logss = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\dannie.txt";
+            string logss = @"dannie.txt";
             string ddan;
             ddan = Email.Text;
             File.WriteAllText(logss, ddan);

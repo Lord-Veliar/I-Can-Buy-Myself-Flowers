@@ -21,11 +21,11 @@ namespace Flowers
         {
             int sh = 0;
             int sm = 0;
-            string pokupki = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\pokp.txt";
+            string pokupki = @"pokp.txt";
             string cpc = "";
             cpc=File.ReadAllText(pokupki);
             spic.Text=cpc;
-            string tht = @"C:\Users\Механцевнв\source\repos\I-Can-Buy-Myself-Flowers\Flowers\bin\Debug\theni.txt";
+            string tht = @"theni.txt";
             string jnj= File.ReadAllText(tht);
             cost.Text=jnj;
             string[] pnp = jnj.Split();
@@ -37,11 +37,6 @@ namespace Flowers
                     summa.Text = Convert.ToString(sm);
                 }
             }
-        }
-
-        private void summa_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
