@@ -263,6 +263,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap банан_комнатный5 {
+            get {
+                object obj = ResourceManager.GetObject("банан комнатный5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Большая_драцена_с_лимоном_и_лаймом {
             get {
                 object obj = ResourceManager.GetObject("Большая драцена с лимоном и лаймом", resourceCulture);
@@ -296,6 +306,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Большая_райская_птица1 {
             get {
                 object obj = ResourceManager.GetObject("Большая райская птица1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Большая_райская_птица2 {
+            get {
+                object obj = ResourceManager.GetObject("Большая райская птица2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,6 +633,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap фикус6 {
+            get {
+                object obj = ResourceManager.GetObject("фикус6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Филодендрон_зеленый {
             get {
                 object obj = ResourceManager.GetObject("Филодендрон_зеленый", resourceCulture);
@@ -656,6 +686,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Шеффлера1 {
             get {
                 object obj = ResourceManager.GetObject("Шеффлера1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Шеффлера2 {
+            get {
+                object obj = ResourceManager.GetObject("Шеффлера2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
