@@ -170,7 +170,7 @@ namespace Flowers
                 rastenia.Ruc.Text = "- Все виды любят высокую влажность воздуха, хорошее освещение, умеренную температуру воздуха. \n" +
                     "- Это теплолюбивое растение. От сквозняков может сбросить листву.\n" +
                     "- Любят высокую влажность. ";
-
+                rastenia.price.Text = "2050";
                 rastenia.pic.Image = Properties.Resources.фикус;
             }
 
@@ -257,6 +257,19 @@ namespace Flowers
             glavnaya.Show();
             glavnaya.WindowState = FormWindowState.Maximized;
             this.Close();
+        }
+
+        private void glav_Click(object sender, EventArgs e)
+        {
+            Glavnaya glavnaya = new Glavnaya();
+            glavnaya.Show();
+            glavnaya.WindowState=FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

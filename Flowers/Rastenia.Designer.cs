@@ -48,6 +48,7 @@
             this.price = new System.Windows.Forms.Label();
             this.kor = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.glav = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,7 +60,7 @@
             this.label666.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label666.AutoSize = true;
             this.label666.Font = new System.Drawing.Font("Segoe UI Semibold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label666.Location = new System.Drawing.Point(352, 179);
+            this.label666.Location = new System.Drawing.Point(289, 179);
             this.label666.Name = "label666";
             this.label666.Size = new System.Drawing.Size(193, 65);
             this.label666.TabIndex = 0;
@@ -68,7 +69,7 @@
             // pic
             // 
             this.pic.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pic.Location = new System.Drawing.Point(352, 272);
+            this.pic.Location = new System.Drawing.Point(289, 272);
             this.pic.Name = "pic";
             this.pic.Size = new System.Drawing.Size(281, 359);
             this.pic.TabIndex = 1;
@@ -82,7 +83,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
             this.pictureBox1.Location = new System.Drawing.Point(0, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(319, 1011);
+            this.pictureBox1.Size = new System.Drawing.Size(319, 1949);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -93,7 +94,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.pictureBox2.Location = new System.Drawing.Point(0, -1);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1354, 108);
+            this.pictureBox2.Size = new System.Drawing.Size(1303, 108);
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
@@ -105,7 +106,7 @@
             this.Korzina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.Korzina.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Korzina.LinkColor = System.Drawing.Color.Black;
-            this.Korzina.Location = new System.Drawing.Point(1024, 39);
+            this.Korzina.Location = new System.Drawing.Point(984, 35);
             this.Korzina.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Korzina.Name = "Korzina";
             this.Korzina.Size = new System.Drawing.Size(107, 32);
@@ -123,7 +124,7 @@
             this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(1185, 39);
+            this.linkLabel1.Location = new System.Drawing.Point(1145, 35);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(114, 32);
@@ -137,7 +138,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(22, 739);
+            this.button5.Location = new System.Drawing.Point(11, 873);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(279, 106);
@@ -149,7 +150,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(22, 611);
+            this.button4.Location = new System.Drawing.Point(11, 745);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(279, 106);
@@ -161,7 +162,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(22, 483);
+            this.button3.Location = new System.Drawing.Point(11, 617);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(279, 106);
@@ -173,7 +174,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(22, 352);
+            this.button2.Location = new System.Drawing.Point(11, 486);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(279, 106);
@@ -197,12 +198,13 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(22, 220);
+            this.button1.Location = new System.Drawing.Point(11, 354);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(279, 106);
             this.button1.TabIndex = 15;
             this.button1.Text = "Тест: какое растение Вам подходит";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox5
             // 
@@ -220,7 +222,7 @@
             this.Pis.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Pis.AutoSize = true;
             this.Pis.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Pis.Location = new System.Drawing.Point(694, 399);
+            this.Pis.Location = new System.Drawing.Point(631, 399);
             this.Pis.Name = "Pis";
             this.Pis.Size = new System.Drawing.Size(68, 30);
             this.Pis.TabIndex = 22;
@@ -231,7 +233,7 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(694, 336);
+            this.label2.Location = new System.Drawing.Point(631, 336);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 41);
             this.label2.TabIndex = 23;
@@ -242,7 +244,7 @@
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(352, 676);
+            this.label3.Location = new System.Drawing.Point(289, 676);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(313, 41);
             this.label3.TabIndex = 24;
@@ -253,7 +255,7 @@
             this.Ruc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.Ruc.AutoSize = true;
             this.Ruc.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Ruc.Location = new System.Drawing.Point(352, 739);
+            this.Ruc.Location = new System.Drawing.Point(289, 739);
             this.Ruc.Name = "Ruc";
             this.Ruc.Size = new System.Drawing.Size(24, 30);
             this.Ruc.TabIndex = 25;
@@ -265,7 +267,7 @@
             this.price.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.price.AutoSize = true;
             this.price.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.price.Location = new System.Drawing.Point(694, 272);
+            this.price.Location = new System.Drawing.Point(631, 272);
             this.price.Name = "price";
             this.price.Size = new System.Drawing.Size(78, 32);
             this.price.TabIndex = 26;
@@ -277,7 +279,7 @@
             this.kor.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.kor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
             this.kor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.kor.Location = new System.Drawing.Point(897, 264);
+            this.kor.Location = new System.Drawing.Point(834, 264);
             this.kor.Name = "kor";
             this.kor.Size = new System.Drawing.Size(198, 54);
             this.kor.TabIndex = 27;
@@ -290,17 +292,30 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(762, 272);
+            this.label4.Location = new System.Drawing.Point(699, 272);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 32);
             this.label4.TabIndex = 28;
             this.label4.Text = "руб.";
+            // 
+            // glav
+            // 
+            this.glav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
+            this.glav.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.glav.Location = new System.Drawing.Point(12, 222);
+            this.glav.Name = "glav";
+            this.glav.Size = new System.Drawing.Size(279, 106);
+            this.glav.TabIndex = 30;
+            this.glav.Text = "Главная";
+            this.glav.UseVisualStyleBackColor = false;
+            this.glav.Click += new System.EventHandler(this.glav_Click);
             // 
             // Rastenia
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1348, 845);
+            this.Controls.Add(this.glav);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.kor);
             this.Controls.Add(this.price);
@@ -354,5 +369,6 @@
         public Label price;
         public Button kor;
         public Label label4;
+        private Button glav;
     }
 }

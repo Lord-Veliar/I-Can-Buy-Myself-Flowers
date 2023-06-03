@@ -55,6 +55,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.glav = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -65,7 +66,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(462, 127);
+            this.label1.Location = new System.Drawing.Point(446, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(546, 28);
             this.label1.TabIndex = 3;
@@ -77,7 +78,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(553, 248);
+            this.label2.Location = new System.Drawing.Point(537, 248);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(328, 28);
             this.label2.TabIndex = 6;
@@ -88,7 +89,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(504, 502);
+            this.label3.Location = new System.Drawing.Point(488, 502);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(463, 28);
             this.label3.TabIndex = 9;
@@ -99,7 +100,7 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(571, 371);
+            this.label4.Location = new System.Drawing.Point(555, 371);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(310, 28);
             this.label4.TabIndex = 12;
@@ -110,7 +111,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(476, 630);
+            this.label5.Location = new System.Drawing.Point(460, 630);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(547, 28);
             this.label5.TabIndex = 15;
@@ -121,7 +122,7 @@
             this.button11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
             this.button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(657, 758);
+            this.button11.Location = new System.Drawing.Point(641, 758);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(183, 45);
             this.button11.TabIndex = 19;
@@ -133,7 +134,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(502, 176);
+            this.button1.Location = new System.Drawing.Point(486, 176);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 39);
@@ -146,7 +147,7 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(852, 176);
+            this.button2.Location = new System.Drawing.Point(836, 176);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(115, 39);
@@ -159,7 +160,7 @@
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(502, 293);
+            this.button3.Location = new System.Drawing.Point(486, 293);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 39);
@@ -172,7 +173,7 @@
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(852, 293);
+            this.button4.Location = new System.Drawing.Point(836, 293);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(115, 39);
@@ -185,7 +186,7 @@
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(502, 416);
+            this.button5.Location = new System.Drawing.Point(486, 416);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(115, 39);
@@ -198,7 +199,7 @@
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(852, 416);
+            this.button6.Location = new System.Drawing.Point(836, 416);
             this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(115, 39);
@@ -211,7 +212,7 @@
             // 
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(504, 549);
+            this.button7.Location = new System.Drawing.Point(488, 549);
             this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(115, 39);
@@ -224,7 +225,7 @@
             // 
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(852, 549);
+            this.button8.Location = new System.Drawing.Point(836, 549);
             this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(115, 39);
@@ -237,7 +238,7 @@
             // 
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(502, 679);
+            this.button9.Location = new System.Drawing.Point(486, 679);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(113, 39);
@@ -250,7 +251,7 @@
             // 
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.button10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(852, 679);
+            this.button10.Location = new System.Drawing.Point(836, 679);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(115, 39);
@@ -266,7 +267,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.pictureBox1.Location = new System.Drawing.Point(-3, -2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1108, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(1074, 108);
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
@@ -278,7 +279,7 @@
             this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(916, 39);
+            this.linkLabel1.Location = new System.Drawing.Point(882, 39);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(114, 32);
@@ -295,7 +296,7 @@
             this.Korzina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.Korzina.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Korzina.LinkColor = System.Drawing.Color.Black;
-            this.Korzina.Location = new System.Drawing.Point(755, 39);
+            this.Korzina.Location = new System.Drawing.Point(721, 39);
             this.Korzina.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Korzina.Name = "Korzina";
             this.Korzina.Size = new System.Drawing.Size(107, 32);
@@ -311,7 +312,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(236)))), ((int)(((byte)(255)))));
             this.pictureBox2.Location = new System.Drawing.Point(-3, -2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(319, 1140);
+            this.pictureBox2.Size = new System.Drawing.Size(319, 1774);
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             // 
@@ -319,7 +320,7 @@
             // 
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button12.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(27, 758);
+            this.button12.Location = new System.Drawing.Point(11, 870);
             this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(279, 106);
@@ -331,7 +332,7 @@
             // 
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button13.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(27, 630);
+            this.button13.Location = new System.Drawing.Point(11, 742);
             this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(279, 106);
@@ -343,7 +344,7 @@
             // 
             this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button14.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(27, 502);
+            this.button14.Location = new System.Drawing.Point(11, 614);
             this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(279, 106);
@@ -355,7 +356,7 @@
             // 
             this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button15.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(27, 371);
+            this.button15.Location = new System.Drawing.Point(11, 483);
             this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(279, 106);
@@ -379,12 +380,13 @@
             // 
             this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
             this.button16.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button16.Location = new System.Drawing.Point(27, 248);
+            this.button16.Location = new System.Drawing.Point(11, 360);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(279, 106);
             this.button16.TabIndex = 34;
             this.button16.Text = "Тест: какое растение Вам подходит";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // pictureBox5
             // 
@@ -397,13 +399,26 @@
             this.pictureBox5.TabIndex = 36;
             this.pictureBox5.TabStop = false;
             // 
+            // glav
+            // 
+            this.glav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
+            this.glav.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.glav.Location = new System.Drawing.Point(12, 239);
+            this.glav.Name = "glav";
+            this.glav.Size = new System.Drawing.Size(279, 106);
+            this.glav.TabIndex = 41;
+            this.glav.Text = "Главная";
+            this.glav.UseVisualStyleBackColor = false;
+            this.glav.Click += new System.EventHandler(this.glav_Click);
+            // 
             // Test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1097, 593);
+            this.ClientSize = new System.Drawing.Size(1097, 725);
+            this.Controls.Add(this.glav);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button14);
@@ -470,5 +485,6 @@
         private Label label6;
         private Button button16;
         private PictureBox pictureBox5;
+        private Button glav;
     }
 }

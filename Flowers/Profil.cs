@@ -216,6 +216,14 @@ namespace Flowers
             korz.WindowState = FormWindowState.Maximized;
             this.Close();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Glavnaya glavnaya = new Glavnaya();
+            glavnaya.Show();
+            glavnaya.WindowState= FormWindowState.Maximized;
+            this.Close();
+        }
     }
 }
 

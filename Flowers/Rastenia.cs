@@ -56,5 +56,21 @@ namespace Flowers
             profil.WindowState = FormWindowState.Maximized;
             this.Close();
         }
+
+        private void glav_Click(object sender, EventArgs e)
+        {
+            Glavnaya glavnaya = new Glavnaya();
+            glavnaya.Show();
+            glavnaya.WindowState= FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Test test = new Test();
+            test.Show();
+            test.WindowState= FormWindowState.Maximized;
+            this.Close();
+        }
     }
 }
