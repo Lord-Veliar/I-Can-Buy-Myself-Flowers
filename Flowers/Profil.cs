@@ -142,7 +142,7 @@ namespace Flowers
                     {
                         cub = vc;
                         bufer[cub] = bluf[0] + ';' + bluf[1] + ';' + RedEm.Text + ';' + bluf[3];
-
+                        File.WriteAllText(logss,RedEm.Text);
                         break;
                     }
                     vc++;
@@ -202,7 +202,7 @@ namespace Flowers
                 File.WriteAllLines(path, bufer);
                 MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
-            if(RedPass.Text== ""||Rednpass.Text=="")
+            if(RedPass.Text== ""||Rednpass.Text==""||RedPass.Text!=suc)
             {
                 MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
