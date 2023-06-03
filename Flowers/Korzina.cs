@@ -38,5 +38,13 @@ namespace Flowers
                 }
             }
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Profil profil = new Profil();
+            profil.Show();
+            profil.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
     }
 }

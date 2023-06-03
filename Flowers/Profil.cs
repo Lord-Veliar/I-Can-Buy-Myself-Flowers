@@ -208,6 +208,14 @@ namespace Flowers
             }
          
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Korzina korz = new Korzina();
+            korz.Show();
+            korz.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
     }
 }
 

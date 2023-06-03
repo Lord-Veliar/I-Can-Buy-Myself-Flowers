@@ -238,6 +238,7 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Корзина";
             this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // pictureBox2
             // 
