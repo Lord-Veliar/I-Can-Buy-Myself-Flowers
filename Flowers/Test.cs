@@ -75,6 +75,13 @@ namespace Flowers
                 this.Close();
                 rastenia.label666.Text = "Банан Комнатный";
                 rastenia.pic.Image = Properties.Resources.банан_комнатный1;
+                rastenia.Pis.Text = "Травянистое плодовое растение банан домашний " +
+                    "является \nчастью семейства Банановые. В природе его \nможно повстречать в Австралии, Эквадоре и \nМексике, причем оно предпочитает расти в \nрегионах с тропическим климатом." +
+                    "Вырастить такое \nнеобычное для комнатной культуры растение можно \nи цветоводу. При правильном уходе в \nтечение года в росте оно может \nприбавить около 100 см.";
+                rastenia.Ruc.Text = "- Регулярно взрыхляйте почву.\n" +
+                    "- Полив проводите обильно, но нечасто.\n" +
+                    "- Необходимо строго следить за соблюдением температурного режима, чтобы дерево \nне засохло. Оптимальная температура для роста +25+30.";
+                rastenia.price.Text = "2566";
             }
             if (button2.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button10.Enabled == false)
             {
@@ -82,6 +89,11 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Антуриум";
+                rastenia.Pis.Text = "Антуриум оправдывает свое прозвище цветок фламинго\n. Антуриумы, редко лишенные эффектного цветения, известны \nкак самое длинное цветущее комнатное растение \nв мире." +
+                    "Это не настоящие цветы, \nа видоизмененные восковые листья.";
+                rastenia.Ruc.Text = "- Хорошо себя чувствует при ярком непрямом свете, но может переносить \nсредний непрямой свет. \n" +
+                    "- Поливают раз в 1-2 недели, давая почве просыхать между поливами. \n";
+                rastenia.price.Text = "6310";
                 rastenia.pic.Image = Properties.Resources.Антуриум1;
             }
             if (button2.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
@@ -89,7 +101,13 @@ namespace Flowers
                 rastenia.Show();
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
-                rastenia.label666.Text = "Большая Драцена С Лимоном И Лаймом";
+                rastenia.label666.Text = "Большая драцена с лимоном и лаймом";
+                rastenia.Pis.Text = "Этот цветок с виду напоминает пальму, \nхотя не имеет к ней совершенно \nникакого отношения." +
+                    "Его неветвящиеся стебли сплошь \nпокрыты большими листьями с продольными полосками. \nОднако спустя несколько лет драцена лайм \nвытягивается в высоту, и ствол оголяется.";
+                rastenia.Ruc.Text = "- Растение любит тепло и повышенную влажность.\n" +
+                    "- Любит яркое освещение, но свет при этом должен быть рассеянным.\n" +
+                    "- Не забудьте про обожаемую драценой процедуру – еженедельный душ.";
+                rastenia.price.Text = "10231";
                 rastenia.pic.Image = Properties.Resources.драцена;
             }
             if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
@@ -98,6 +116,10 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Оливковое Дерево";
+                rastenia.Pis.Text = "Эти средиземноморские растения нуждаются в большом \nколичестве ярких прямых солнечных лучей. Окна, \nвыходящие на юг и запад, идеально \nподходят. Допускается размещение с домашними животными. ";
+                rastenia.Ruc.Text = "- Хорошо себя чувствует при ярком освещении и полном солнце. \n" +
+                    "- Поливайте каждую неделю, позволяя почве просыхать на полпути между поливами.";
+                rastenia.price.Text = "6300";
                 rastenia.pic.Image = Properties.Resources.оливковое;
             }
             if (button1.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
@@ -106,6 +128,10 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Большая Райская Птица";
+                rastenia.Pis.Text = "Райская птица своими широкими яркими зелеными \nлистьями привносит нотку тропиков в любую \nкомнату. Он назван в честь своих \nуникальных цветов, которые напоминают ярко окрашенных \nптиц в полете. ";
+                rastenia.Ruc.Text = "- Хорошо себя чувствует при ярком непрямом и прямом свете.\n" +
+                    "- Поливают раз в 1-2 недели, давая почве просыхать между поливами.";
+                rastenia.price.Text = "18440";
                 rastenia.pic.Image = Properties.Resources.Большая_райская_птица1;
             }
             if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button10.Enabled == false)
@@ -114,6 +140,11 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Денежное Дерево";
+                rastenia.Pis.Text = "Говорят, что денежное дерево приносит удачу \nи удачу, является идеальным растением, которое \nможно добавить в любую комнату вашего \nдома, чтобы создать хороший фэн-шуй. ";
+                rastenia.Ruc.Text = "- Хорошо себя чувствует при ярком непрямом и среднем освещении.\n" +
+                    "- Поливают раз в 1-2 недели, давая почве просыхать между поливами.\n" +
+                    "- Это растение дружелюбное к домашним животным.";
+                rastenia.price.Text = "5499";
                 rastenia.pic.Image = Properties.Resources.денежное;
             }
             if (button2.Enabled == false && button4.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
@@ -122,6 +153,11 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Калатея Вэйвстар";
+                rastenia.Pis.Text = "Калатея, из чьих листьев индейцы плели \nкорзины, в наших домах не просто \nукрашение, а одно из самых полезных \nрастений. Она способна поглощать вредные вещества \nиз воздуха и нейтрализовать их, перерабатывать \nуглекислый газ в кислород и способствует \nповышению влажности воздуха. ";
+                rastenia.Ruc.Text = "- Важным является температура содержания – 22 – 24 °С.\n" +
+                    "- Прямые солнечные лучи вызывают ожоги листьев. \n" +
+                    "- Высокий уровень влажности воздуха – важнейший критерий для успешного выращивания калатеи.";
+                rastenia.price.Text = "3000";
                 rastenia.pic.Image = Properties.Resources.Калатея_Вейвстар1;
             }
             if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button9.Enabled == false)
@@ -130,6 +166,11 @@ namespace Flowers
                 rastenia.WindowState = FormWindowState.Maximized;
                 this.Close();
                 rastenia.label666.Text = "Фикус";
+                rastenia.Pis.Text = "Вечнозеленая культура, имеет форму дерева или \nкустарника. В природе достигает 20 м, \nа в помещениях — не более двух метров.";
+                rastenia.Ruc.Text = "- Все виды любят высокую влажность воздуха, хорошее освещение, умеренную температуру воздуха. \n" +
+                    "- Это теплолюбивое растение. От сквозняков может сбросить листву.\n" +
+                    "- Любят высокую влажность. ";
+
                 rastenia.pic.Image = Properties.Resources.фикус;
             }
 

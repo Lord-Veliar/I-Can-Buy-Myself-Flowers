@@ -298,8 +298,8 @@
             // 
             // Rastenia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1348, 845);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.kor);

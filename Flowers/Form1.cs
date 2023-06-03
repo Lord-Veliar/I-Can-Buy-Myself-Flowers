@@ -144,7 +144,6 @@ namespace Flowers
                 string[] bluf = st.Split(';');
                 if (bluf[2] == Email.Text)
                 {
-
                     protect++;
                 }
 
