@@ -85,53 +85,24 @@ namespace Flowers
                     string[] bluf = st.Split(';');
                     if (bluf[2] == dan)
                     {
-
+                        people.Add(RedIm.Text);
+                       people.Add(RedFm.Text);
+                        people.Add(dan);
+                        people.Add(dan);
                         break;
                     }
                     vc++;
-                }
-                bufer.Add(RedIm.Text);
-                bufer.Add(RedFm.Text);
-
-                bufer.Add(dan);
-
-                int ind = 0;
-                int protect = 0;
-                using (StreamReader reader = new StreamReader(path))
-                {
-                    string? line;
-                    while ((line = await reader.ReadLineAsync()) != null)
-                    {
-                        bufer.Add(line);
-                    }
-                    reader.Close();
-                }
-                foreach (string st in bufer)
-                {
-                    string[] bluf = st.Split(';');
-                    //if (bluf[2] == RedEm.Text)
-                    //{
-
-                    //    protect++;
-                    //}
-
-                }
-                if (protect == 0 && RedIm.Text != "Имя" && RedFm.Text != "Фамилия" && RedEm.Text != "Email" && RedPass.Text != "Пароль")
-                {
-                    people.Remove(RedIm.Text);
-                    people.Add(RedIm.Text);
-                    people.Remove(RedFm.Text);
-                    people.Add(RedFm.Text);
-                    //people.Remove(RedEm.Text);
-                    //people.Add(RedEm.Text);
-                    //people.Remove(RedPass.Text);
-                    //people.Add(RedIm.Text);
                     using (StreamWriter writer = new StreamWriter(path, true))
                     {
-                        await writer.WriteLineAsync(people[ind] + ';' + people[ind + 1] /*+ ';' + people[ind + 2] + ';' + people[ind + 3]*/);
+                        await writer.WriteLineAsync(people[0] + ';' + people[1] + ';' + people[2] + ';' + people[3]);
                         writer.Close();
                     }
-                    ind++;
+                }
+
+
+ 
+
+                
                     //    var ModifData = File
                     //        .ReadLines(path.ToString())
                     //        .Select(line => line.Split(';'))
@@ -151,5 +122,4 @@ namespace Flowers
             }
         }
     }
-}
 
