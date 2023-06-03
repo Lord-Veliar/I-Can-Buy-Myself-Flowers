@@ -169,6 +169,7 @@
             this.izmp.TabIndex = 13;
             this.izmp.Text = "Изменить почту";
             this.izmp.UseVisualStyleBackColor = false;
+            this.izmp.Click += new System.EventHandler(this.izmp_Click);
             // 
             // izmpar
             // 
@@ -180,6 +181,7 @@
             this.izmpar.TabIndex = 14;
             this.izmpar.Text = "Изменить пароль";
             this.izmpar.UseVisualStyleBackColor = false;
+            this.izmpar.Click += new System.EventHandler(this.izmpar_Click);
             // 
             // pictureBox1
             // 

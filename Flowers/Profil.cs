@@ -60,8 +60,8 @@ namespace Flowers
 
         private async void ResSave_Click(object sender, EventArgs e)
         {
-    
-            if (RedIm.Text != null && RedFm.Text != null)
+
+            if (RedIm.Text != "" && RedFm.Text != "")
             {
                 int cub = 0;
                 int vc = 0;
@@ -80,37 +80,134 @@ namespace Flowers
                     }
                     reader.Close();
                 }
-                for (int i=0;i<bufer.Count;i++)
+                for (int i = 0; i < bufer.Count; i++)
                 {
 
                     string[] bluf = bufer[i].Split(';');
-                    bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';'+bluf[3];
+                    bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';' + bluf[3];
                     if (bluf[2] == dan)
                     {
                         cub = vc;
                         bufer[cub] = RedIm.Text + ';' + RedFm.Text + ';' + bluf[2] + ';' + bluf[3];
-                 
+
                         break;
                     }
                     vc++;
-   
+
 
                 }
 
                 File.WriteAllText(path, "");
                 File.WriteAllLines(path, bufer);
                 bufer = File.ReadAllLines(path).ToList();
-             
-                    //File.WriteAllText(path, bufer);
-
-                //File.AppendAllText(path, "\n");
+                MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
-
+           else
+            {
+                MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             void RedIm_TextChanged(object sender, EventArgs e)
-                {
+            {
 
-                }
             }
         }
+
+        private async void izmp_Click(object sender, EventArgs e)
+        {
+            if (RedEm.Text != "")
+            {
+                int cub = 0;
+                int vc = 0;
+                string logss = @"dannie.txt";
+                string path = @"Аккаунты.csv";
+                List<string> bufer = new List<string>();
+                string dan;
+                dan = File.ReadAllText(logss);
+
+                using (StreamReader reader = new StreamReader(path))
+                {
+                    string? line;
+                    while ((line = await reader.ReadLineAsync()) != null)
+                    {
+                        bufer.Add(line);
+                    }
+                    reader.Close();
+                }
+                for (int i = 0; i < bufer.Count; i++)
+                {
+
+                    string[] bluf = bufer[i].Split(';');
+                    bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';' + bluf[3];
+                    if (bluf[2] == dan)
+                    {
+                        cub = vc;
+                        bufer[cub] = bluf[0] + ';' + bluf[1] + ';' + RedEm.Text + ';' + bluf[3];
+
+                        break;
+                    }
+                    vc++;
+
+
+                }
+
+                File.WriteAllText(path, "");
+                File.WriteAllLines(path, bufer);
+                bufer = File.ReadAllLines(path).ToList();
+                MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+            else
+            {
+                MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private async void izmpar_Click(object sender, EventArgs e)
+        {
+            int cub = 0;
+            int vc = 0;
+            string suc="";
+            string logss = @"dannie.txt";
+            string path = @"Аккаунты.csv";
+            List<string> bufer = new List<string>();
+            string dan;
+            dan = File.ReadAllText(logss);
+
+            using (StreamReader reader = new StreamReader(path))
+            {
+                string? line;
+                while ((line = await reader.ReadLineAsync()) != null)
+                {
+                    bufer.Add(line);
+                }
+                reader.Close();
+            }
+            for (int i = 0; i < bufer.Count; i++)
+            {
+
+                string[] bluf = bufer[i].Split(';');
+                bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';' + bluf[3];
+                if (bluf[2] == dan)
+                {
+                    cub = vc;
+                    suc = bluf[3];
+                    bufer[cub] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';' + Rednpass.Text;
+                    break;
+                }
+                vc++;
+
+            }
+            if (RedPass.Text == suc && Rednpass.Text != "")
+            {
+                File.WriteAllText(path, "");
+                File.WriteAllLines(path, bufer);
+                MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+            if(RedPass.Text== ""||Rednpass.Text=="")
+            {
+                MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+         
+        }
     }
+}
 
