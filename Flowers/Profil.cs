@@ -60,13 +60,13 @@ namespace Flowers
 
         private async void ResSave_Click(object sender, EventArgs e)
         {
-            int cub = 0;
+    
             if (RedIm.Text != null && RedFm.Text != null)
             {
+                int cub = 0;
                 int vc = 0;
                 string logss = @"dannie.txt";
                 string path = @"Аккаунты.csv";
-                List<string> people = new List<string>();
                 List<string> bufer = new List<string>();
                 string dan;
                 dan = File.ReadAllText(logss);
@@ -80,79 +80,33 @@ namespace Flowers
                     }
                     reader.Close();
                 }
-                foreach (string st in bufer)
+                for (int i=0;i<bufer.Count;i++)
                 {
 
-                    string[] bluf = st.Split(';');
+                    string[] bluf = bufer[i].Split(';');
                     bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';'+bluf[3];
                     if (bluf[2] == dan)
                     {
-                        bufer[vc]=RedIm.Text+';'+RedFm.Text+';'+dan+';'+dan;
                         cub = vc;
-                        //bufer[vc*2]=RedFm.Text;
-                        //bufer[vc * 3] = dan;
-                        //bufer[vc * 4] = dan;
+                        bufer[cub] = RedIm.Text + ';' + RedFm.Text + ';' + bluf[2] + ';' + bluf[3];
+                 
                         break;
                     }
                     vc++;
-            
-                    //using (StreamWriter writer = new StreamWriter(path, true))
-                    //{
-                    //    await writer.WriteLineAsync(people[0] + ';' + people[1] + ';' + people[2] + ';' + people[3]);
-                    //    writer.Close();
-                    //}
+   
 
                 }
 
-                //using (StreamWriter writer = new StreamWriter(path, true))
-                //{
-                //    //for (int i = 0; i < bufer.Count; i++)
-                //       writer.WriteLine(path, bufer);
-                //    writer.Close();
-                //}
+                File.WriteAllText(path, "");
+                File.WriteAllLines(path, bufer);
+                bufer = File.ReadAllLines(path).ToList();
+             
+                    //File.WriteAllText(path, bufer);
 
-                File.WriteAllText(path, bufer[cub]);
-                File.AppendAllText(path, "\n");
-                for (int i = 1; i < bufer.Count; i++)
-                {
-                    File.AppendAllText(path, bufer[i]);
-                }
-
-                //using (StreamWriter writer = new StreamWriter(path, true))
-                //{
-                //    for (int i = 0; i < bufer.Count-3; i++)
-                //    {
-                //        await writer.WriteLineAsync(bufer[i] + ';' + bufer[i + 1] + ';' + bufer[i + 2] + ';' + bufer[i + 3]);
-                //    }
-
-                //    writer.Close();
-                //}
-                //for(int i=0;i<bufer.Count-3;i++)
-                //{
-                //    File.WriteAllText(path, bufer[i] + ';' + bufer[i+1] + ';' + bufer[i+2] + ';' + bufer[i+3]);
-                //}
-                //people.Add(RedIm.Text);
-                //people.Add(RedFm.Text);
-                //people.Add(dan);
-                //people.Add(dan);
-                //File.WriteAllText(path, people[0] + ';' + people[1] + ';' + people[2] + ';' + people[3]);
-
-
-
-
-                //    var ModifData = File
-                //        .ReadLines(path.ToString())
-                //        .Select(line => line.Split(';'))
-                //        .Select(item => {
-                //           item[1] = item[0];
-                //            return string.Join(';', item);
-                //        })
-                //        .ToList();
-                //    File.WriteAllLines(path.ToString(), ModifData);
-                //}
+                //File.AppendAllText(path, "\n");
             }
 
-                void RedIm_TextChanged(object sender, EventArgs e)
+            void RedIm_TextChanged(object sender, EventArgs e)
                 {
 
                 }
