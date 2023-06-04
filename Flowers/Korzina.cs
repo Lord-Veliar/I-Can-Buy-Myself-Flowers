@@ -23,17 +23,17 @@ namespace Flowers
             int sm = 0;
             string pokupki = @"pokp.txt";
             string cpc = "";
-            cpc=File.ReadAllText(pokupki);
-            spic.Text=cpc;
+            cpc = File.ReadAllText(pokupki);
+            spic.Text = cpc;
             string tht = @"theni.txt";
-            string jnj= File.ReadAllText(tht);
-            cost.Text=jnj;
+            string jnj = File.ReadAllText(tht);
+            cost.Text = jnj;
             string[] pnp = jnj.Split();
             foreach (string p in pnp)
             {
-                if (p!="")
+                if (p != "")
                 {
-                    sm = sm+ Convert.ToInt32(p);
+                    sm = sm + Convert.ToInt32(p);
                     summa.Text = Convert.ToString(sm);
                 }
             }
@@ -51,8 +51,13 @@ namespace Flowers
         {
             Glavnaya glavnaya = new Glavnaya();
             glavnaya.Show();
-            glavnaya.WindowState= FormWindowState.Maximized;
+            glavnaya.WindowState = FormWindowState.Maximized;
             this.Close();
+        }
+
+        private void oplata_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Оплата прошла успешно", "Оплачено", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
     }
 }

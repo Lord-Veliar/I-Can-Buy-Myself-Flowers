@@ -50,6 +50,7 @@ namespace Flowers
 
         private void button11_Click(object sender, EventArgs e)
         {
+            int crak = 0;
             Rastenia rastenia = new Rastenia();
             if(button1.Enabled==false&&button4.Enabled==false&&button5.Enabled==false&&button7.Enabled==false&&button10.Enabled==false)
             {
@@ -67,6 +68,7 @@ namespace Flowers
                     "\n- Поливайте каждые 1-2 недели, позволяя почве просохнуть наполовину между \nполивами. Ожидайте поливать чаще при ярком свете и реже при слабом. \nЭтому растению может быть полезна дополнительная влажность. Калатеи могут быть \nчувствительны к жесткой водопроводной воде. Попробуйте использовать фильтрованную воду или \nоставьте воду на ночь перед использованием." +
                     "\n- Это растение подходит для домашних животных.";
                 rastenia.price.Text = "4699";
+                crak++;
             }
             if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button9.Enabled == false)
             {
@@ -82,6 +84,7 @@ namespace Flowers
                     "- Полив проводите обильно, но нечасто.\n" +
                     "- Необходимо строго следить за соблюдением температурного режима, чтобы дерево \nне засохло. Оптимальная температура для роста +25+30.";
                 rastenia.price.Text = "2566";
+                crak++;
             }
             if (button2.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button10.Enabled == false)
             {
@@ -95,6 +98,7 @@ namespace Flowers
                     "- Поливают раз в 1-2 недели, давая почве просыхать между поливами. \n";
                 rastenia.price.Text = "6310";
                 rastenia.pic.Image = Properties.Resources.Антуриум1;
+                crak++;
             }
             if (button2.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
             {
@@ -109,6 +113,7 @@ namespace Flowers
                     "- Не забудьте про обожаемую драценой процедуру – еженедельный душ.";
                 rastenia.price.Text = "10231";
                 rastenia.pic.Image = Properties.Resources.драцена;
+                crak++;
             }
             if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
             {
@@ -121,6 +126,7 @@ namespace Flowers
                     "- Поливайте каждую неделю, позволяя почве просыхать на полпути между поливами.";
                 rastenia.price.Text = "6300";
                 rastenia.pic.Image = Properties.Resources.оливковое;
+                crak++;
             }
             if (button1.Enabled == false && button3.Enabled == false && button6.Enabled == false && button8.Enabled == false && button9.Enabled == false)
             {
@@ -133,6 +139,7 @@ namespace Flowers
                     "- Поливают раз в 1-2 недели, давая почве просыхать между поливами.";
                 rastenia.price.Text = "18440";
                 rastenia.pic.Image = Properties.Resources.Большая_райская_птица1;
+                crak++;
             }
             if (button1.Enabled == false && button4.Enabled == false && button6.Enabled == false && button7.Enabled == false && button10.Enabled == false)
             {
@@ -146,6 +153,7 @@ namespace Flowers
                     "- Это растение дружелюбное к домашним животным.";
                 rastenia.price.Text = "5499";
                 rastenia.pic.Image = Properties.Resources.денежное;
+                crak++;
             }
             if (button2.Enabled == false && button4.Enabled == false && button5.Enabled == false && button7.Enabled == false && button10.Enabled == false)
             {
@@ -159,6 +167,7 @@ namespace Flowers
                     "- Высокий уровень влажности воздуха – важнейший критерий для успешного выращивания калатеи.";
                 rastenia.price.Text = "3000";
                 rastenia.pic.Image = Properties.Resources.Калатея_Вейвстар1;
+                crak++;
             }
             if (button1.Enabled == false && button3.Enabled == false && button5.Enabled == false && button8.Enabled == false && button9.Enabled == false)
             {
@@ -172,6 +181,15 @@ namespace Flowers
                     "- Любят высокую влажность. ";
                 rastenia.price.Text = "2050";
                 rastenia.pic.Image = Properties.Resources.фикус;
+                crak++;
+            }
+            if(crak==0)
+            {
+                MessageBox.Show("К сожалению мы не смогли подобрать для Вас подходящее растение", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Glavnaya glavnaya = new Glavnaya();
+                glavnaya.Show();
+                glavnaya.WindowState = FormWindowState.Maximized;
+                this.Close();
             }
 
         }

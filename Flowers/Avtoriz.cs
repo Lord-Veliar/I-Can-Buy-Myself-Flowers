@@ -31,6 +31,19 @@ namespace Flowers
             {
 
             }
+            string pokupki = @"pokp.txt";
+            string tht = @"theni.txt";
+            File.Delete(pokupki);
+            File.Delete(tht);
+            using (var fileStream = File.Create(pokupki))
+            {
+
+            }
+
+            using (var fileStream = File.Create(tht))
+            {
+
+            }
         }
 
         private void APass_TextChanged(object sender, EventArgs e)

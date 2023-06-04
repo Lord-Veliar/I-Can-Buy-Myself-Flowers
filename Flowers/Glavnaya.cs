@@ -60,19 +60,7 @@ namespace Flowers
 
         private void Glavnaya_Load(object sender, EventArgs e)
         {
-            string pokupki = @"pokp.txt";
-            string tht = @"theni.txt";
-            File.Delete(pokupki);
-            File.Delete(tht);
-            using (var fileStream = File.Create(pokupki))
-            {
 
-            }
-
-            using (var fileStream = File.Create(tht))
-            {
-
-            }
         }
 
         private void first_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -92,6 +80,7 @@ namespace Flowers
                 "\n- Поливайте каждые 1-2 недели, позволяя почве просохнуть наполовину между \nполивами. Ожидайте поливать чаще при ярком свете и реже при слабом. \nЭтому растению может быть полезна дополнительная влажность. Калатеи могут быть \nчувствительны к жесткой водопроводной воде. Попробуйте использовать фильтрованную воду или \nоставьте воду на ночь перед использованием." +
                 "\n- Это растение подходит для домашних животных.";
             rastenia.price.Text = "4699";
+
         }
 
         private void banan_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -109,6 +98,7 @@ namespace Flowers
                 "- Полив проводите обильно, но нечасто.\n" +
                 "- Необходимо строго следить за соблюдением температурного режима, чтобы дерево \nне засохло. Оптимальная температура для роста +25+30.";
             rastenia.price.Text = "2566";
+   
         }
 
         private void third_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -124,6 +114,7 @@ namespace Flowers
                     "- Поливают раз в 1-2 недели, давая почве просыхать между поливами. \n";
                 rastenia.price.Text = "6310";
                 rastenia.pic.Image = Properties.Resources.Антуриум1;
+     
         }
 
         private void lime_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

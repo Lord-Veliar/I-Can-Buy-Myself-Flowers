@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -102,7 +105,7 @@ namespace Flowers
                 bufer = File.ReadAllLines(path).ToList();
                 MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
-           else
+            else
             {
                 MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -114,15 +117,20 @@ namespace Flowers
 
         private async void izmp_Click(object sender, EventArgs e)
         {
+            int protect = 0;
+            int cub = 0;
+            int vc = 0;
+            string test;
+            int testr = 0;
+            string logss = @"dannie.txt";
+            string path = @"Аккаунты.csv";
+            List<string> bufer = new List<string>();
+            string dan;
+            dan = File.ReadAllText(logss);
             if (RedEm.Text != "")
             {
-                int cub = 0;
-                int vc = 0;
-                string logss = @"dannie.txt";
-                string path = @"Аккаунты.csv";
-                List<string> bufer = new List<string>();
-                string dan;
-                dan = File.ReadAllText(logss);
+
+
 
                 using (StreamReader reader = new StreamReader(path))
                 {
@@ -137,27 +145,39 @@ namespace Flowers
                 {
 
                     string[] bluf = bufer[i].Split(';');
-                    bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';' + bluf[3];
-                    if (bluf[2] == dan)
+                    if (bluf[2] == RedEm.Text)
+                        testr++;
+                    //bufer[vc] = bluf[0] + ';' + bluf[1] + ';' + bluf[2] + ';' + bluf[3];
+                    if (bluf[2] == dan && testr == 0)
                     {
+                        test = bluf[2];
                         cub = vc;
                         bufer[cub] = bluf[0] + ';' + bluf[1] + ';' + RedEm.Text + ';' + bluf[3];
-                        File.WriteAllText(logss,RedEm.Text);
-                        break;
+                        File.WriteAllText(logss, RedEm.Text);
+                        //break;
+                        protect++;
                     }
                     vc++;
 
 
+
                 }
 
-                File.WriteAllText(path, "");
-                File.WriteAllLines(path, bufer);
-                bufer = File.ReadAllLines(path).ToList();
-                MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+
             }
-            else
+            if (RedEm.Text == "")
             {
                 MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            if (protect > 0 && testr == 0)
+            {
+
+                File.WriteAllLines(path, bufer);
+                MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+            if (protect <= 0 && testr > 0)
+            {
+                MessageBox.Show("Аккаунт с этим Email уже существует", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -165,7 +185,7 @@ namespace Flowers
         {
             int cub = 0;
             int vc = 0;
-            string suc="";
+            string suc = "";
             string logss = @"dannie.txt";
             string path = @"Аккаунты.csv";
             List<string> bufer = new List<string>();
@@ -202,11 +222,11 @@ namespace Flowers
                 File.WriteAllLines(path, bufer);
                 MessageBox.Show("Изменения сохранены", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
-            if(RedPass.Text== ""||Rednpass.Text==""||RedPass.Text!=suc)
+            if (RedPass.Text == "" || Rednpass.Text == "" || RedPass.Text != suc)
             {
                 MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-         
+
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -221,9 +241,24 @@ namespace Flowers
         {
             Glavnaya glavnaya = new Glavnaya();
             glavnaya.Show();
-            glavnaya.WindowState= FormWindowState.Maximized;
+            glavnaya.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Glavnaya glavnaya = new Glavnaya();
+            glavnaya.Show();
+            glavnaya.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Glavnaya glavnaya = new Glavnaya();
+            glavnaya.Show();
+            glavnaya.WindowState = FormWindowState.Maximized;
             this.Close();
         }
     }
 }
-

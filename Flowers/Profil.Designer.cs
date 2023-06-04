@@ -28,293 +28,293 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.RedIm = new System.Windows.Forms.TextBox();
-            this.RedFm = new System.Windows.Forms.TextBox();
-            this.RedEm = new System.Windows.Forms.TextBox();
-            this.RedPass = new System.Windows.Forms.TextBox();
-            this.ResSave = new System.Windows.Forms.Button();
-            this.Rednpass = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.izmp = new System.Windows.Forms.Button();
-            this.izmpar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            RedIm = new TextBox();
+            RedFm = new TextBox();
+            RedEm = new TextBox();
+            RedPass = new TextBox();
+            ResSave = new Button();
+            Rednpass = new TextBox();
+            label5 = new Label();
+            izmp = new Button();
+            izmpar = new Button();
+            pictureBox1 = new PictureBox();
+            label6 = new Label();
+            linkLabel1 = new LinkLabel();
+            linkLabel2 = new LinkLabel();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(55, 125);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Имя";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(55, 125);
+            label1.Name = "label1";
+            label1.Size = new Size(55, 30);
+            label1.TabIndex = 0;
+            label1.Text = "Имя";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(266, 125);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 30);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Фамилия";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(266, 125);
+            label2.Name = "label2";
+            label2.Size = new Size(104, 30);
+            label2.TabIndex = 1;
+            label2.Text = "Фамилия";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(55, 209);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 30);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Почта";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(55, 209);
+            label3.Name = "label3";
+            label3.Size = new Size(73, 30);
+            label3.TabIndex = 2;
+            label3.Text = "Почта";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(50, 293);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 30);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Старый пароль";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(50, 293);
+            label4.Name = "label4";
+            label4.Size = new Size(166, 30);
+            label4.TabIndex = 3;
+            label4.Text = "Старый пароль";
             // 
             // RedIm
             // 
-            this.RedIm.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RedIm.Location = new System.Drawing.Point(55, 158);
-            this.RedIm.Name = "RedIm";
-            this.RedIm.Size = new System.Drawing.Size(164, 33);
-            this.RedIm.TabIndex = 4;
+            RedIm.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            RedIm.Location = new Point(55, 158);
+            RedIm.Name = "RedIm";
+            RedIm.Size = new Size(164, 33);
+            RedIm.TabIndex = 4;
             // 
             // RedFm
             // 
-            this.RedFm.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RedFm.Location = new System.Drawing.Point(266, 158);
-            this.RedFm.Name = "RedFm";
-            this.RedFm.Size = new System.Drawing.Size(164, 33);
-            this.RedFm.TabIndex = 5;
+            RedFm.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            RedFm.Location = new Point(266, 158);
+            RedFm.Name = "RedFm";
+            RedFm.Size = new Size(164, 33);
+            RedFm.TabIndex = 5;
             // 
             // RedEm
             // 
-            this.RedEm.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.RedEm.Location = new System.Drawing.Point(55, 240);
-            this.RedEm.Name = "RedEm";
-            this.RedEm.Size = new System.Drawing.Size(164, 33);
-            this.RedEm.TabIndex = 6;
+            RedEm.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            RedEm.Location = new Point(55, 240);
+            RedEm.Name = "RedEm";
+            RedEm.Size = new Size(164, 33);
+            RedEm.TabIndex = 6;
             // 
             // RedPass
             // 
-            this.RedPass.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.RedPass.Location = new System.Drawing.Point(55, 335);
-            this.RedPass.Name = "RedPass";
-            this.RedPass.Size = new System.Drawing.Size(164, 33);
-            this.RedPass.TabIndex = 7;
+            RedPass.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            RedPass.Location = new Point(55, 335);
+            RedPass.Name = "RedPass";
+            RedPass.Size = new Size(164, 33);
+            RedPass.TabIndex = 7;
             // 
             // ResSave
             // 
-            this.ResSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
-            this.ResSave.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ResSave.Location = new System.Drawing.Point(464, 158);
-            this.ResSave.Name = "ResSave";
-            this.ResSave.Size = new System.Drawing.Size(114, 33);
-            this.ResSave.TabIndex = 8;
-            this.ResSave.Text = "Сохранить";
-            this.ResSave.UseVisualStyleBackColor = false;
-            this.ResSave.Click += new System.EventHandler(this.ResSave_Click);
+            ResSave.BackColor = Color.FromArgb(142, 213, 228);
+            ResSave.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            ResSave.Location = new Point(464, 158);
+            ResSave.Name = "ResSave";
+            ResSave.Size = new Size(114, 33);
+            ResSave.TabIndex = 8;
+            ResSave.Text = "Сохранить";
+            ResSave.UseVisualStyleBackColor = false;
+            ResSave.Click += ResSave_Click;
             // 
             // Rednpass
             // 
-            this.Rednpass.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Rednpass.Location = new System.Drawing.Point(266, 335);
-            this.Rednpass.Name = "Rednpass";
-            this.Rednpass.Size = new System.Drawing.Size(164, 33);
-            this.Rednpass.TabIndex = 9;
-            this.Rednpass.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            Rednpass.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Rednpass.Location = new Point(266, 335);
+            Rednpass.Name = "Rednpass";
+            Rednpass.Size = new Size(164, 33);
+            Rednpass.TabIndex = 9;
+            Rednpass.TextChanged += textBox1_TextChanged;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(266, 302);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(160, 30);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Новый пароль";
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(266, 302);
+            label5.Name = "label5";
+            label5.Size = new Size(160, 30);
+            label5.TabIndex = 10;
+            label5.Text = "Новый пароль";
             // 
             // izmp
             // 
-            this.izmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
-            this.izmp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.izmp.Location = new System.Drawing.Point(266, 240);
-            this.izmp.Name = "izmp";
-            this.izmp.Size = new System.Drawing.Size(178, 33);
-            this.izmp.TabIndex = 13;
-            this.izmp.Text = "Изменить почту";
-            this.izmp.UseVisualStyleBackColor = false;
-            this.izmp.Click += new System.EventHandler(this.izmp_Click);
+            izmp.BackColor = Color.FromArgb(142, 213, 228);
+            izmp.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            izmp.Location = new Point(266, 240);
+            izmp.Name = "izmp";
+            izmp.Size = new Size(178, 33);
+            izmp.TabIndex = 13;
+            izmp.Text = "Изменить почту";
+            izmp.UseVisualStyleBackColor = false;
+            izmp.Click += izmp_Click;
             // 
             // izmpar
             // 
-            this.izmpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
-            this.izmpar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.izmpar.Location = new System.Drawing.Point(464, 335);
-            this.izmpar.Name = "izmpar";
-            this.izmpar.Size = new System.Drawing.Size(188, 33);
-            this.izmpar.TabIndex = 14;
-            this.izmpar.Text = "Изменить пароль";
-            this.izmpar.UseVisualStyleBackColor = false;
-            this.izmpar.Click += new System.EventHandler(this.izmpar_Click);
+            izmpar.BackColor = Color.FromArgb(142, 213, 228);
+            izmpar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            izmpar.Location = new Point(464, 335);
+            izmpar.Name = "izmpar";
+            izmpar.Size = new Size(188, 33);
+            izmpar.TabIndex = 14;
+            izmpar.Text = "Изменить пароль";
+            izmpar.UseVisualStyleBackColor = false;
+            izmpar.Click += izmpar_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1091, 108);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pictureBox1.BackColor = Color.FromArgb(197, 235, 207);
+            pictureBox1.Location = new Point(-3, -1);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(1091, 108);
+            pictureBox1.TabIndex = 15;
+            pictureBox1.TabStop = false;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(55, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(237, 65);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Профиль";
+            label6.AutoSize = true;
+            label6.BackColor = Color.FromArgb(197, 235, 207);
+            label6.Font = new Font("Segoe UI Semibold", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(55, 22);
+            label6.Name = "label6";
+            label6.Size = new Size(237, 65);
+            label6.TabIndex = 16;
+            label6.Text = "Профиль";
             // 
             // linkLabel1
             // 
-            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.linkLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
-            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(938, 37);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(114, 32);
-            this.linkLabel1.TabIndex = 49;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Профиль";
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Black;
+            linkLabel1.ActiveLinkColor = Color.FromArgb(0, 64, 0);
+            linkLabel1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            linkLabel1.AutoSize = true;
+            linkLabel1.BackColor = Color.FromArgb(197, 235, 207);
+            linkLabel1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            linkLabel1.LinkColor = Color.Black;
+            linkLabel1.Location = new Point(938, 37);
+            linkLabel1.Margin = new Padding(2, 0, 2, 0);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(114, 32);
+            linkLabel1.TabIndex = 49;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Профиль";
+            linkLabel1.VisitedLinkColor = Color.Black;
             // 
             // linkLabel2
             // 
-            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.linkLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
-            this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(768, 37);
-            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(107, 32);
-            this.linkLabel2.TabIndex = 48;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Корзина";
-            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            linkLabel2.ActiveLinkColor = Color.FromArgb(0, 64, 0);
+            linkLabel2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            linkLabel2.AutoSize = true;
+            linkLabel2.BackColor = Color.FromArgb(197, 235, 207);
+            linkLabel2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            linkLabel2.LinkColor = Color.Black;
+            linkLabel2.Location = new Point(768, 37);
+            linkLabel2.Margin = new Padding(2, 0, 2, 0);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(107, 32);
+            linkLabel2.TabIndex = 48;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "Корзина";
+            linkLabel2.VisitedLinkColor = Color.Black;
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 37);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 10);
-            this.pictureBox2.TabIndex = 50;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.BackColor = Color.FromArgb(142, 213, 228);
+            pictureBox2.Location = new Point(13, 37);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(36, 10);
+            pictureBox2.TabIndex = 50;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(13, 54);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(36, 11);
-            this.pictureBox3.TabIndex = 51;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            pictureBox3.BackColor = Color.FromArgb(142, 213, 228);
+            pictureBox3.Cursor = Cursors.Hand;
+            pictureBox3.Location = new Point(13, 54);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(36, 11);
+            pictureBox3.TabIndex = 51;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(213)))), ((int)(((byte)(228)))));
-            this.pictureBox4.Location = new System.Drawing.Point(13, 71);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(36, 10);
-            this.pictureBox4.TabIndex = 52;
-            this.pictureBox4.TabStop = false;
+            pictureBox4.BackColor = Color.FromArgb(142, 213, 228);
+            pictureBox4.Location = new Point(13, 71);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(36, 10);
+            pictureBox4.TabIndex = 52;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(235)))), ((int)(((byte)(207)))));
-            this.pictureBox5.Location = new System.Drawing.Point(10, 37);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(39, 50);
-            this.pictureBox5.TabIndex = 53;
-            this.pictureBox5.TabStop = false;
+            pictureBox5.BackColor = Color.FromArgb(197, 235, 207);
+            pictureBox5.Location = new Point(10, 37);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(39, 50);
+            pictureBox5.TabIndex = 53;
+            pictureBox5.TabStop = false;
             // 
             // Profil
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1081, 481);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.izmpar);
-            this.Controls.Add(this.izmp);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.Rednpass);
-            this.Controls.Add(this.ResSave);
-            this.Controls.Add(this.RedPass);
-            this.Controls.Add(this.RedEm);
-            this.Controls.Add(this.RedFm);
-            this.Controls.Add(this.RedIm);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox5);
-            this.Name = "Profil";
-            this.Text = "Profil";
-            this.Load += new System.EventHandler(this.Profil_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1081, 481);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(linkLabel1);
+            Controls.Add(linkLabel2);
+            Controls.Add(label6);
+            Controls.Add(izmpar);
+            Controls.Add(izmp);
+            Controls.Add(label5);
+            Controls.Add(Rednpass);
+            Controls.Add(ResSave);
+            Controls.Add(RedPass);
+            Controls.Add(RedEm);
+            Controls.Add(RedFm);
+            Controls.Add(RedIm);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(pictureBox1);
+            Controls.Add(pictureBox5);
+            Name = "Profil";
+            Text = "Profil";
+            Load += Profil_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

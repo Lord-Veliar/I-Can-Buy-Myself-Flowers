@@ -27,13 +27,14 @@ namespace Flowers
 
         }
         static int i;
-       public void kor_Click(object sender, EventArgs e)
+        public void kor_Click(object sender, EventArgs e)
         {
-           Korzina korz = new Korzina();
-            string pokupki= @"pokp.txt";
+            Korzina korz = new Korzina();
+            string pokupki = @"pokp.txt";
             string tht = @"theni.txt";
-            File.AppendAllText(pokupki, label666.Text+ Environment.NewLine);
+            File.AppendAllText(pokupki, label666.Text + Environment.NewLine);
             File.AppendAllText(tht, price.Text + Environment.NewLine);
+            MessageBox.Show("Товар добавлен в корзину!", "Добавлено", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
 
         }
 
@@ -42,6 +43,7 @@ namespace Flowers
             Korzina korz = new Korzina();
             korz.Show();
             korz.WindowState = FormWindowState.Maximized;
+            this.Close();
         }
 
         private void price_Click(object sender, EventArgs e)
@@ -61,7 +63,7 @@ namespace Flowers
         {
             Glavnaya glavnaya = new Glavnaya();
             glavnaya.Show();
-            glavnaya.WindowState= FormWindowState.Maximized;
+            glavnaya.WindowState = FormWindowState.Maximized;
             this.Close();
         }
 
@@ -69,7 +71,7 @@ namespace Flowers
         {
             Test test = new Test();
             test.Show();
-            test.WindowState= FormWindowState.Maximized;
+            test.WindowState = FormWindowState.Maximized;
             this.Close();
         }
     }
