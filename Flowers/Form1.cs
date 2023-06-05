@@ -164,7 +164,7 @@ namespace Flowers
                 I_Can_Buy_Myself_Flowers i_Can_Buy_Myself_Flowers = new I_Can_Buy_Myself_Flowers();
                 glavnaya.Show();
                 glavnaya.WindowState = FormWindowState.Maximized;
-
+          
 
             }
             if (protect != 0)
@@ -175,6 +175,10 @@ namespace Flowers
             {
                 MessageBox.Show("Заполните все обязательные поля", "Ошибка регистрации", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            Email.Text = "Email";
+            NameText.Text = "Имя";
+            FFF.Text = "Фамилия";
+            Pass.Text = "Пароль";
 
         }
 

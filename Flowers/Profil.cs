@@ -33,7 +33,7 @@ namespace Flowers
             string dan;
             dan = File.ReadAllText(logss);
 
-            int protect = 0;
+
             using (StreamReader reader = new StreamReader(path))
             {
                 string? line;
@@ -109,10 +109,7 @@ namespace Flowers
             {
                 MessageBox.Show("Введенные данные некорректны", "Ошибка изменения данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            void RedIm_TextChanged(object sender, EventArgs e)
-            {
-
-            }
+       
         }
 
         private async void izmp_Click(object sender, EventArgs e)
