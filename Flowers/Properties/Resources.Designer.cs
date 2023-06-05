@@ -203,6 +203,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Антуриум2 {
+            get {
+                object obj = ResourceManager.GetObject("Антуриум2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap банан {
             get {
                 object obj = ResourceManager.GetObject("банан", resourceCulture);
@@ -273,6 +283,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap банан_комнатный6 {
+            get {
+                object obj = ResourceManager.GetObject("банан комнатный6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Большая_драцена_с_лимоном_и_лаймом {
             get {
                 object obj = ResourceManager.GetObject("Большая драцена с лимоном и лаймом", resourceCulture);
@@ -286,6 +306,26 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Большая_драцена_с_лимоном_и_лаймом1 {
             get {
                 object obj = ResourceManager.GetObject("Большая драцена с лимоном и лаймом1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Большая_драцена_с_лимоном_и_лаймом2 {
+            get {
+                object obj = ResourceManager.GetObject("Большая драцена с лимоном и лаймом2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Большая_драцена_с_лимоном_и_лаймом3 {
+            get {
+                object obj = ResourceManager.GetObject("Большая драцена с лимоном и лаймом3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +356,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Большая_райская_птица2 {
             get {
                 object obj = ResourceManager.GetObject("Большая райская птица2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Большая_райская_птица3 {
+            get {
+                object obj = ResourceManager.GetObject("Большая райская птица3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,6 +413,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap денежное_дерево2 {
+            get {
+                object obj = ResourceManager.GetObject("денежное дерево2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap драцена {
             get {
                 object obj = ResourceManager.GetObject("драцена", resourceCulture);
@@ -396,6 +456,26 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Калатея_Вейвстар1 {
             get {
                 object obj = ResourceManager.GetObject("Калатея Вейвстар1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Калатея_Вейвстар2 {
+            get {
+                object obj = ResourceManager.GetObject("Калатея Вейвстар2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Калатея_Вейвстар3 {
+            get {
+                object obj = ResourceManager.GetObject("Калатея Вейвстар3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,6 +533,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Калатея_Гремучая_змея6 {
+            get {
+                object obj = ResourceManager.GetObject("Калатея Гремучая змея6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Мирная {
             get {
                 object obj = ResourceManager.GetObject("Мирная", resourceCulture);
@@ -476,6 +566,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Мирная_лилия_Домино1 {
             get {
                 object obj = ResourceManager.GetObject("Мирная лилия Домино1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Мирная_лилия_Домино2 {
+            get {
+                object obj = ResourceManager.GetObject("Мирная лилия Домино2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,6 +613,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Оливковое_дерево2 {
+            get {
+                object obj = ResourceManager.GetObject("Оливковое дерево2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Потос {
             get {
                 object obj = ResourceManager.GetObject("Потос", resourceCulture);
@@ -526,6 +636,26 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Потос_Нью_Джей {
             get {
                 object obj = ResourceManager.GetObject("Потос Нью-Джей", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Потос_Нью_Джей1 {
+            get {
+                object obj = ResourceManager.GetObject("Потос Нью-Джей1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Потос_Нью_Джей2 {
+            get {
+                object obj = ResourceManager.GetObject("Потос Нью-Джей2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -556,6 +686,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Приятный_кактус1 {
             get {
                 object obj = ResourceManager.GetObject("Приятный кактус1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Приятный_кактус2 {
+            get {
+                object obj = ResourceManager.GetObject("Приятный кактус2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,9 +783,19 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Филодендрон_зеленый {
+        internal static System.Drawing.Bitmap фикус7 {
             get {
-                object obj = ResourceManager.GetObject("Филодендрон_зеленый", resourceCulture);
+                object obj = ResourceManager.GetObject("фикус7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Филодендрон_зеленый1 {
+            get {
+                object obj = ResourceManager.GetObject("Филодендрон зеленый1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -666,6 +816,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Хойя_Харт {
             get {
                 object obj = ResourceManager.GetObject("Хойя Харт", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Хойя_Харт1 {
+            get {
+                object obj = ResourceManager.GetObject("Хойя Харт1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -703,6 +863,16 @@ namespace Flowers.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Шеффлера3 {
+            get {
+                object obj = ResourceManager.GetObject("Шеффлера3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Эхеверия {
             get {
                 object obj = ResourceManager.GetObject("Эхеверия", resourceCulture);
@@ -716,6 +886,16 @@ namespace Flowers.Properties {
         internal static System.Drawing.Bitmap Эхеверия_Пелусида {
             get {
                 object obj = ResourceManager.GetObject("Эхеверия Пелусида", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Эхеверия_Пелусида1 {
+            get {
+                object obj = ResourceManager.GetObject("Эхеверия Пелусида1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -55,7 +55,7 @@ namespace Flowers
             Korzina korz = new Korzina();
             korz.Show();
             korz.WindowState = FormWindowState.Maximized;
-
+            this.Close();
         }
 
         private void Glavnaya_Load(object sender, EventArgs e)
@@ -292,6 +292,38 @@ namespace Flowers
         private void pictureBox20_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Big big = new Big();
+            big.Show();
+            big.WindowState= FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            New @new = new New();
+            @new.Show();
+            @new.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            animals animals = new animals();
+            animals.Show();
+            animals.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            light light = new light();
+            light.Show();
+            light.WindowState = FormWindowState.Maximized;
+            this.Close();
         }
     }
 }

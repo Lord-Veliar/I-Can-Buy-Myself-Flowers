@@ -289,5 +289,53 @@ namespace Flowers
         {
 
         }
+
+        private void Korzina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Korzina korzina = new Korzina();
+            korzina.Show();
+            korzina.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Profil profil = new Profil();
+            profil.Show();
+            profil.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Big big = new Big();
+            big.Show();
+            big.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            New @new = new New();
+            @new.Show();
+            @new.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            animals animals = new animals();
+            animals.Show();
+            animals.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            light light = new light();
+            light.Show();
+            light.WindowState = FormWindowState.Maximized;
+            this.Close();
+        }
     }
 }
